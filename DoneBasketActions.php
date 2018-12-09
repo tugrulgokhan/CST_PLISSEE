@@ -1,4 +1,5 @@
 <?php
+//ONE ERROR IN THIS PAGE. LINE:26
  include('config.php');
 try
 {   
@@ -6,7 +7,7 @@ try
 	if($_GET["action"] == "list")
 	{
 
-		$result = mysqli_query($db, "SELECT BASKET_ID,COLOR,HEIGHT,WIDTH,MATERIAL,MONTAGE,PRICE, DONE, DELETED  FROM TRN_BASKET WHERE DELETED='WIEDERHERGESTELLT' AND DONE='VERLASSEN' AND TRANSACTION_ID=".$_GET['transID'].";");
+		$result = mysqli_query($db, "SELECT BASKET_ID,COLOR,HEIGHT,WIDTH,MATERIAL,MONTAGE,PRICE, DONE, DELETED  FROM TRN_BASKET WHERE DELETED='UNDELETED' AND TRANSACTION_ID=".$_GET['transID'].";");
 		//Add all records to an array
 		$rows = array();
 		while($row = mysqli_fetch_array($result))
@@ -22,7 +23,7 @@ try
 	
 	//Creating a new record (createAction)
 	else if($_GET["action"] == "create")
-	{
+	{	//THAT IS NOT WORKING
 		//Insert record into database
 		$result = mysqli_query($db,"INSERT INTO TRN_BASKET(COLOR, HEIGHT, WIDTH, MATERIAL, MONTAGE, PRICE, TRANSACTION_ID) VALUES('" . $_POST["COLOR"] . "', " . $_POST["HEIGHT"] . "," . $_POST["WIDTH"] . "," . $_POST["MATERIAL"] . "," . $_POST["MONTAGE"] . "," . $_POST["PRICE"] . "," .$_GET['transID']. ");");
 		//Get last inserted record (to return to jTable)
@@ -50,7 +51,7 @@ try
 	else if($_GET["action"] == "delete")
 	{
 		//Delete from database
-		$result = mysqli_query($db, "UPDATE TRN_BASKET SET DELETED = 'GESTRICHEN' WHERE BASKET_ID = " . $_POST["BASKET_ID"] . ";");
+		$result = mysqli_query($db, "UPDATE TRN_BASKET SET DELETED = 'FULLY_FLIED' WHERE BASKET_ID = " . $_POST["BASKET_ID"] . ";");
 
 		//Return result to jTable
 		$jTableResult = array();

@@ -9,10 +9,9 @@
     <script src="Scripts/jtable/jquery.jtable.js" type="text/javascript"></script>
 	
   </head>
-  <body style="background-color:grey;"  background="/img/BG.jpg" align="center" >
-  	<div align="right"><button type="button" style="height:30px;width:120px"><b>AUSLOGGEN</b></button></div>
-  	<form style="color: black" align="left">
-  		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  <body background="/img/BG.jpg">
+  	<div><button type="button" style="height:30px;width:120px"><b>AUSLOGGEN</b></button></div>
+  	<form style="color: black">
   		<button type="submit" id="Filter_Button" style="height:30px; width:100px"><b>FILTER</b></button>
   		&emsp;
   		<b>NUTZER:     </b><input type="text" name="user_filter" id="user_filter" style="height:30px;width:170px" />
@@ -20,7 +19,7 @@
     </form>
   	
   	<div style="height: 5px" ></div>
-	<center><div id="PeopleTableContainer" style="width: 900px;"></div></center>
+	<div id="PeopleTableContainer" style="width: 900px;"></div>
 	<script type="text/javascript">
  		
 		$(document).ready(function () {
@@ -34,10 +33,10 @@
             	edit:false,
 				openChildAsAccordion: true,
 				actions: {
-					listAction: 'WillActions.php?action=list',
-					createAction: 'WillActions.php?action=create',
-					updateAction: 'WillActions.php?action=update',
-					deleteAction: 'WillActions.php?action=delete'
+					listAction: 'DoneActions.php?action=list',
+					createAction: 'DoneActions.php?action=create',
+					updateAction: 'DoneActions.php?action=update',
+					deleteAction: 'DoneActions.php?action=delete'
 				},
 				fields: {
 						BASKETS:{
@@ -56,10 +55,10 @@
                                     	{
                                     	title: basket.record.POSTED_USER + ' - Items',
                                     	actions: {
-                                        	listAction: 'WillBasketActions.php?action=list&transID='+basket.record.TRANSACTION_ID,
-                                        	deleteAction: 'WillBasketActions.php?action=delete',
-                                        	updateAction: 'WillBasketActions.php?action=update',
-                                        	createAction: 'WillBasketActions.php?action=create&transID='+basket.record.TRANSACTION_ID
+                                        	listAction: 'DoneBasketActions.php?action=list&transID='+basket.record.TRANSACTION_ID,
+                                        	deleteAction: 'DoneBasketActions.php?action=delete',
+                                        	updateAction: 'DoneBasketActions.php?action=update',
+                                        	createAction: 'DoneBasketActions.php?action=create&transID='+basket.record.TRANSACTION_ID
                                     	},
 										fields: {
                                         	BASKET_ID: {
@@ -89,24 +88,17 @@
                                             	title: 'Montage',
                                             	width: '30%',
                                         	},
+
                                         	PRICE: {
                                             	title: 'Preis',
                                             	width: '30%',
                                         	},
                                         	DONE: {
-												title: 'Erledigt',
-												width:'2%',
-												options: ["ERLEDIGT","VERLASSEN"],
-												list:false,
-												create:false
-											},
-											DELETED: {
-												title: 'Gelöscht',
-												width:'2%',
-												edit:false,
-												list:false,
-												create:false
-											}
+                                        		title: 'Last Up',
+                                        		width: '20%',
+                                        		options: ["UNDONE","DONE"]
+                                        	}
+                                        	
                                     	}
                                 	}, function (data) { //opened handler
                                    		data.childTable.jtable('load');
@@ -138,25 +130,8 @@
 						title: 'Menge',
 						width: '5%',
 						edit:false
-					},
-					DONE:
-					{
-						title: 'Erledigt',
-						width:'2%',
-						options: ["ERLEDIGT","VERLASSEN"],
-						list:false,
-						create:false
-
-					},
-					DELETED:
-					{
-						title: 'Gelöscht',
-						width:'2%',
-						edit:false,
-						list:false,
-						create:false
-
 					}
+					
 				}
 			});
 			$('#date_filter').datepicker({ dateFormat: 'yy-mm-dd' }); // Add datepicker to filter input
@@ -176,7 +151,7 @@
 		});
 
 	</script>
-			<div style="height: 5px">	</div>
+			<div style="height: 5px"></div>
 			<button style="height:33px; width:150px" type="button"><b>VERKAUFT</b></button>
 			<button style="height:33px;width:150px" type="button"><b>GELÖSCHT</b></button>
   	</div>
