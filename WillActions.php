@@ -64,15 +64,7 @@ try
 	}
 	//Updating a record (updateAction)
 	else if($_GET["action"] == "update")
-	{  	//BU YARIM ÇALIŞIYOR.
-		//Update record in database
-		if ( $_POST["DONE"] == 'ERLEDIGT') {
-			$_POST["DONE"] = 'DONE';
-		}
-		else{
-			$_POST["DONE"] = 'UNDONE';
-		}
-
+	{  	
 		$result = mysqli_query($db, "UPDATE TRN_TRANSACTION SET DONE = '" . $_POST["DONE"] . "', POSTED_USER = '" . $_POST["POSTED_USER"] . "' WHERE TRANSACTION_ID = '" . $_POST["TRANSACTION_ID"] . "';");
 
 		//Return result to jTable

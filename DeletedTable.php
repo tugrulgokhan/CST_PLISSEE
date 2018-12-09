@@ -96,9 +96,11 @@
                                         	DONE: {
 												title: 'Erledigt',
 												width:'2%',
-												options: ["ERLEDIGT","VERLASSEN"],
+												options: ["UNDONE","DONE"],
 												list:false,
-												create:false
+												create:false,
+												edit:false
+												
 											},
 											DELETED: {
 												title: 'Gelöscht',
@@ -139,20 +141,11 @@
 						width: '5%',
 						edit:false
 					},
-					DONE:
-					{
-						title: 'Erledigt',
-						width:'2%',
-						options: ["ERLEDIGT","VERLASSEN"],
-						list:false,
-						create:false
-
-					},
 					DELETED:
 					{
 						title: 'Gelöscht',
 						width:'2%',
-						edit:false,
+						options: ["UNDELETED", "DELETED"],
 						list:false,
 						create:false
 

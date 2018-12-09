@@ -1,5 +1,6 @@
 <?php
  include('config.php');
+ //ONE ERROR. LINE 27
 try
 {   
 	//Getting records (listAction)
@@ -23,6 +24,7 @@ try
 	//Creating a new record (createAction)
 	else if($_GET["action"] == "create")
 	{
+		//THIS IS NOT WORKING.
 		//Insert record into database
 		$result = mysqli_query($db,"INSERT INTO TRN_BASKET(COLOR, HEIGHT, WIDTH, MATERIAL, MONTAGE, PRICE, TRANSACTION_ID) VALUES('" . $_POST["COLOR"] . "', " . $_POST["HEIGHT"] . "," . $_POST["WIDTH"] . "," . $_POST["MATERIAL"] . "," . $_POST["MONTAGE"] . "," . $_POST["PRICE"] . "," .$_GET['transID']. ");");
 		//Get last inserted record (to return to jTable)
@@ -39,7 +41,7 @@ try
 	else if($_GET["action"] == "update")
 	{
 		//Update record in database
-		$result = mysqli_query($db, "UPDATE TRN_BASKET SET DONE = '" . $_POST["DONE"] . "', COLOR = '" . $_POST["COLOR"] . "', HEIGHT = '" . $_POST["HEIGHT"] . "', WIDTH = '" . $_POST["WIDTH"] . "', MATERIAL = '" . $_POST["MATERIAL"] . "', PRICE = '" . $_POST["PRICE"] . "', MONTAGE = '" . $_POST["MONTAGE"] . "' WHERE BASKET_ID = '" . $_POST["BASKET_ID"] . "';");
+		$result = mysqli_query($db, "UPDATE TRN_BASKET SET COLOR = '" . $_POST["COLOR"] . "', HEIGHT = '" . $_POST["HEIGHT"] . "', WIDTH = '" . $_POST["WIDTH"] . "', MATERIAL = '" . $_POST["MATERIAL"] . "', PRICE = '" . $_POST["PRICE"] . "', MONTAGE = '" . $_POST["MONTAGE"] . "' WHERE BASKET_ID = '" . $_POST["BASKET_ID"] . "';");
 
 		//Return result to jTable
 		$jTableResult = array();
@@ -50,7 +52,7 @@ try
 	else if($_GET["action"] == "delete")
 	{
 		//Delete from database
-		$result = mysqli_query($db, "UPDATE TRN_BASKET SET DELETED = 'GESTRICHEN' WHERE BASKET_ID = " . $_POST["BASKET_ID"] . ";");
+		$result = mysqli_query($db, "UPDATE TRN_BASKET SET DELETED = 'ETERNITY' WHERE BASKET_ID = " . $_POST["BASKET_ID"] . ";");
 
 		//Return result to jTable
 		$jTableResult = array();

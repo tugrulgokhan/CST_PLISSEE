@@ -33,7 +33,7 @@ try
 
 		//Get records from database
 
-		$result = mysqli_query($db, "SELECT TRANSACTION_ID, POSTED_USER, DATE, AMOUNT, DONE, DELETED FROM TRN_TRANSACTION WHERE DELETED='UNDELETED' AND DATE LIKE '%".$date_filter."%' AND DATE LIKE '%".$date_filter."%';");
+		$result = mysqli_query($db, "SELECT TRANSACTION_ID, POSTED_USER, DATE, AMOUNT, DONE, DELETED FROM TRN_TRANSACTION WHERE DELETED='DELETED' AND DATE LIKE '%".$date_filter."%' AND DATE LIKE '%".$date_filter."%';");
 		//Add all records to an array
 		$rows = array();
 		while($row = mysqli_fetch_array($result))
@@ -66,7 +66,7 @@ try
 	else if($_GET["action"] == "update")
 	{  	//BU YARIM ÇALIŞIYOR.
 		//Update record in database
-		$result = mysqli_query($db, "UPDATE TRN_TRANSACTION SET DONE = '" . $_POST["DONE"] . "', POSTED_USER = '" . $_POST["POSTED_USER"] . "' WHERE TRANSACTION_ID = '" . $_POST["TRANSACTION_ID"] . "';");
+		$result = mysqli_query($db, "UPDATE TRN_TRANSACTION SET DELETED = '" . $_POST["DELETED"] . "', POSTED_USER = '" . $_POST["POSTED_USER"] . "' WHERE TRANSACTION_ID = '" . $_POST["TRANSACTION_ID"] . "';");
 
 		//Return result to jTable
 		$jTableResult = array();
@@ -82,22 +82,6 @@ try
 		//Return result to jTable
 		$jTableResult = array();
 		$jTableResult['Result'] = "OK";
-		print json_encode($jTableResult);
-	}
-	else if($_GET["action"] == "filtre")
-	{
-		$result = mysqli_query($db, "SELECT TRANSACTION_ID, POSTED_USER, DATE, AMOUNT, DONE, DELETED FROM TRN_TRANSACTION WHERE DELETED='WIEDERHERGESTELLT' AND TRANSACTION_ID =1;");
-		//$result = mysqli_query($db, "SELECT TRANSACTION_ID, POSTED_USER, DATE, AMOUNT, DONE, DELETED FROM TRN_TRANSACTION WHERE DELETED='UNDELETED' AND DONE='UNDONE' AND POSTED_USER LIKE '%".$_POST["user"]."%' AND DATE LIKE '%".$_POST["date"]."%';");
-		//Add all records to an array
-		$rows = array();
-		while($row = mysqli_fetch_array($result))
-		{
-		    $rows[] = $row;
-		}
-		//Return result to jTable
-		$jTableResult = array();
-		$jTableResult['Result'] = "OK";
-		$jTableResult['Records'] = $rows;
 		print json_encode($jTableResult);
 	}
 	

@@ -94,7 +94,7 @@
                                         	DONE: {
 												title: 'Erledigt',
 												width:'2%',
-												options: ["ERLEDIGT","VERLASSEN"],
+												options: ["UNDONE","DONE"],
 												list:false,
 												create:false
 											},
@@ -141,7 +141,7 @@
 					{
 						title: 'Erledigt',
 						width:'2%',
-						options: ["ERLEDIGT","VERLASSEN"],
+						options: ["DONE","UNDONE"],
 						list:false,
 						create:false
 
