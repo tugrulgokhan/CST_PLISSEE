@@ -1,5 +1,4 @@
 <?php
-//ONE ERROR IN THIS PAGE. LINE:38
   include('config.php');
 try
 {   
@@ -35,7 +34,7 @@ try
 		//Get records from database
 
 		$result = mysqli_query($db, "SELECT TRANSACTION_ID, POSTED_USER, DATE, AMOUNT, DONE, DELETED FROM TRN_TRANSACTION WHERE DONE='DONE' AND DELETED='UNDELETED' AND DATE LIKE '%".$date_filter."%' AND DATE LIKE '%".$date_filter."%';");
-		//THAT IS NOT WORKING. FILTER.
+	
 		//Add all records to an array
 		$rows = array();
 		while($row = mysqli_fetch_array($result))

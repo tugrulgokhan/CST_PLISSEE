@@ -22,10 +22,9 @@ try
 	
 	//Creating a new record (createAction)
 	else if($_GET["action"] == "create")
-	{
-		//Çalışmıyor.
+	{		
 		//Insert record into database
-		$result = mysqli_query($db,"INSERT INTO TRN_BASKET(COLOR, HEIGHT, WIDTH, MATERIAL, MONTAGE, PRICE, TRANSACTION_ID) VALUES('" . $_POST["COLOR"] . "', " . $_POST["HEIGHT"] . "," . $_POST["WIDTH"] . "," . $_POST["MATERIAL"] . "," . $_POST["MONTAGE"] . "," . $_POST["PRICE"] . "," .$_GET['transID']. ");");
+		$result = mysqli_query($db,"INSERT INTO TRN_BASKET(COLOR, HEIGHT, WIDTH, MATERIAL, MONTAGE, PRICE, TRANSACTION_ID) VALUES('" . $_POST["COLOR"] . "','" . $_POST["HEIGHT"] . "','" . $_POST["WIDTH"] . "','" . $_POST["MATERIAL"] . "','" . $_POST["MONTAGE"] . "','" . $_POST["PRICE"] . "'," . $_GET['transID'] . ");");
 		//Get last inserted record (to return to jTable)
 		$result = mysqli_query($db,"SELECT * FROM TRN_BASKET WHERE BASKET_ID = LAST_INSERT_ID();");
 		$row = mysqli_fetch_array($result);
