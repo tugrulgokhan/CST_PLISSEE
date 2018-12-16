@@ -33,7 +33,7 @@ try
 
 		//Get records from database
 
-		$result = mysqli_query($db, "SELECT TRANSACTION_ID, POSTED_USER, DATE, AMOUNT, DONE, DELETED FROM TRN_TRANSACTION WHERE DELETED='DELETED' AND DATE LIKE '%".$date_filter."%' AND DATE LIKE '%".$date_filter."%';");
+		$result = mysqli_query($db, "SELECT TRANSACTION_ID, POSTED_USER, DATE, AMOUNT, DONE, DELETED FROM TRN_TRANSACTION WHERE DELETED='DELETED' AND DATE LIKE '%".$date_filter."%' AND POSTED_USER LIKE '%".$user_filter."%';");
 		//Add all records to an array
 		$rows = array();
 		while($row = mysqli_fetch_array($result))

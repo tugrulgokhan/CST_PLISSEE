@@ -175,8 +175,8 @@
 
 	</script>
 			
-			<button style="height:33px; width:150px" type="button" onclick="location.href='localhost:8000/donetable.php';"><b>VERKAUFT</b></button>
-			<button style="height:33px; width:150px" type="button" onclick="location.href='localhost:8000/deletedtable.php';"><b>GELÖSCHT</b></button>
+			<button style="height:33px; width:150px" type="button" onclick="location.href='/donetable.php';"><b>VERKAUFT</b></button>
+			<button style="height:33px; width:150px" type="button" onclick="location.href='/deletedtable.php';"><b>GELÖSCHT</b></button>
   	</div>
   </body>
 </html>

@@ -152,8 +152,8 @@
 
 	</script>
 			<div style="height: 5px"></div>
-			<button style="height:33px; width:150px" type="button"><b>VERKAUFT</b></button>
-			<button style="height:33px;width:150px" type="button"><b>GELÖSCHT</b></button>
+			<button style="height:33px; width:150px" type="button" onclick="location.href='/willtable.php';"><b>VERKAUFT</b></button>
+			<button style="height:33px; width:150px" type="button" onclick="location.href='/deletedtable.php';"><b>GELÖSCHT</b></button>
   	</div>
   </body>
 </html>

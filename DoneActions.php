@@ -33,7 +33,7 @@ try
 
 		//Get records from database
 
-		$result = mysqli_query($db, "SELECT TRANSACTION_ID, POSTED_USER, DATE, AMOUNT, DONE, DELETED FROM TRN_TRANSACTION WHERE DONE='DONE' AND DELETED='UNDELETED' AND DATE LIKE '%".$date_filter."%' AND DATE LIKE '%".$date_filter."%';");
+		$result = mysqli_query($db, "SELECT TRANSACTION_ID, POSTED_USER, DATE, AMOUNT, DONE, DELETED FROM TRN_TRANSACTION WHERE DONE='DONE' AND DELETED='UNDELETED' AND DATE LIKE '%".$date_filter."%' AND POSTED_USER LIKE '%".$user_filter."%';");
 	
 		//Add all records to an array
 		$rows = array();
@@ -51,6 +51,7 @@ try
 	//Creating a new record (createAction)
 	else if($_GET["action"] == "create")
 	{
+		
 		//Insert record into database
 		$result = mysqli_query($db,"INSERT INTO TRN_TRANSACTION(POSTED_USER, DATE, AMOUNT, DONE) VALUES('" . $_POST["POSTED_USER"] . "',now()," . $_POST["AMOUNT"] . ", 'DONE');");
 		//Get last inserted record (to return to jTable)
