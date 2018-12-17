@@ -43,10 +43,9 @@
     <div id="aukcja">
 
         <div id="top">
-
-            <div class="logo">www_plissee-zeit_de</div>
+           <!-- <div class="logo">www_plissee-zeit_de</div>
             <div class="hotline"></div>
-            <img class="logoc" src="http://www.plissee-zeit.de/ebay2015/LOGO-Cosiflor-Systemtechnik.jpg">
+            <img class="logoc" src="http://www.plissee-zeit.de/ebay2015/LOGO-Cosiflor-Systemtechnik.jpg"> -->
         </div>
 
         <div id="utop">
@@ -70,15 +69,40 @@
                     <div class="form-field">
                         <label for="mWidth">Breite in mm</label>
                         <select id="mWidth">
+                            <option value="400">400</option>
+                            <option value="500">500</option>
+                            <option value="600">600</option>
+                            <option value="700">700</option>
+                            <option value="800">800</option>
+                            <option value="900">900</option>
                             <option value="1000">1000</option>
+                            <option value="1100">1100</option>
                             <option value="1200">1200</option>
+                            <option value="1300">1300</option>
+                            <option value="1400">1400</option>
+                            <option value="1500">1500</option>
                         </select>
                     </div>
                     <div class="form-field">
                         <label for="mHeight">Höhe in mm</label>
                         <select id="mHeight">
+                            <option value="600">600</option>
+                            <option value="700">700</option>
+                            <option value="800">800</option>
+                            <option value="900">900</option>
                             <option value="1000">1000</option>
+                            <option value="1100">1100</option>
                             <option value="1200">1200</option>
+                            <option value="1300">1300</option>
+                            <option value="1400">1400</option>
+                            <option value="1500">1500</option>
+                            <option value="1600">1600</option>
+                            <option value="1700">1700</option>
+                            <option value="1800">1800</option>
+                            <option value="1900">1900</option>
+                            <option value="1900">2000</option>
+                            <option value="1900">2100</option>
+                            <option value="2200">2200</option>
                         </select>
                     </div>
                     <div class="form-field">
@@ -92,9 +116,31 @@
                     <div class="form-field">
                         <label for="mMaterial">Stoff</label>
                         <select id="mMaterial">
-                            <optgroup label="Allegro - PREISGRUPPE 0">
-                                <option value="Yellow1">ALLEGRO 7220 Beige</option>
-                                <option value="Yellow2">ALLEGRO 7223 Gelb</option>
+                            <optgroup label="CARA PERL - PREISGRUPPE 0">
+                                <option value="C1">CARA PERL 051 Elfenbein</option>
+                                <option value="C2">CARA PERL 052 Latte</option>
+                                <option value="C3">CARA PERL 053 Hellbeige</option>
+                                <option value="C4">CARA PERL 054 Braun</option>
+                                <option value="C5">CARA PERL 055 Anthrazit</option>
+                                <option value="C6">CARA PERL 056 Dunkelgrau</option>
+                                <option value="C7">CARA PERL 057 Cream</option>
+                                <option value="C8">CARA PERL 058 Gelb</option>
+                                <option value="C9">CARA PERL 062 Violett</option>
+                                <option value="C10">CARA PERL 063 Apfelgrün</option>
+                                <option value="C11">CARA PERL 066 Weiß</option>
+                            </optgroup>
+                            <optgroup label="UNICOLOR - PREISGRUPPE 1">
+                                <option value="U1">UNICOLOR 079 Himbeerrot</option>
+                                <option value="U2">UNICOLOR 084 Hellbraun</option>
+                                <option value="U3">UNICOLOR 085 Anthrazit</option>
+                                <option value="U4">UNICOLOR 087 Gelb</option>
+                                <option value="U5">UNICOLOR 090 Apfelgrün</option>
+                                <option value="U6">UNICOLOR 1200 Weiß</option>
+                                <option value="U7">UNICOLOR 1201 Hellgelb</option>
+                                <option value="U8">UNICOLOR 1202 Lachscream</option>
+                                <option value="U9">UNICOLOR 1203 Beige</option>
+                                <option value="U10">UNICOLOR 1206 Cream</option>
+                                <option value="U11">UNICOLOR 1208 Helllachscr.</option>
                             </optgroup>
                         </select>
                         <div class="clearfix"></div>
@@ -186,288 +232,48 @@
             <div class="trzakl">
                 <div id="sklep">
                     <div class="cl"> </div>
-                    <span class="tytul">Allegro</span> - Preisgruppe 0 | lichtdurchlässig | blickdicht
+                    <span class="tytul">Cara Perl</span> - Preisgruppe 0 | lichtdurchlässig | blickdicht
                     <div class="clear"> </div>
 
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#1-allegro-7220-beige" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/allegro/1_plissee_beige.jpg" alt="Plissee Beige" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#2-allegro-7223-gelb" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/allegro/2_plissee_gelb.jpg" alt="Plissee Gelb" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#3-allegro-7235-cream" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/allegro/3_plissee_cream.jpg" alt="Plissee Cream" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#4-allegro-7236-hellbeige" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/allegro/4_plissee_hellbeige.jpg" alt="Plissee Hellbeige" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#6-allegro-7238-lemon" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/allegro/6_plissee_lemon.jpg" alt="Plissee Lemon" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#7-allegro-7241-stahlblau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/allegro/7_plissee_stahlblau.jpg" alt="Plissee Stahlblau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#8-allegro-7242-braun" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/allegro/8_plissee_braun.jpg" alt="Plissee Braun" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#9-allegro-7243-orange" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/allegro/9_plissee_orange.jpg" alt="Plissee Orange" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#10-allegro-7446-blau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/allegro/10_plissee_blau.jpg" alt="Plissee Blau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#11-allegro-7447-rosaviolett" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/allegro/11_plissee_rosaviolet.jpg" alt="Plissee Rosaviolet" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#12-allegro-7234-wei" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/allegro/12_plissee_weiss.jpg" alt="Plissee Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#14-allegro-7448-grn" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/allegro/14_plissee_gruen.jpg" alt="Plissee Grün" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20051%20Elfenbein.jpeg" alt="Plissee Beige" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20052%20Latte.jpeg" alt="Plissee Gelb" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20053%20Hellbeige.jpeg" alt="Plissee Cream" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20054%20Braun.jpeg" alt="Plissee Hellbeige" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20055%20Anthrazit.jpeg" alt="Plissee Lemon" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20056%20Dunkelgrau.jpeg" alt="Plissee Stahlblau" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20057%20Cream.jpeg" alt="Plissee Braun" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20058%20Gelb.jpeg" alt="Plissee Orange" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20062%20Violett.jpeg" alt="Plissee Blau" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20063%20Apfelgrün.jpeg" alt="Plissee Rosaviolet" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20066%20Weiß.jpeg" alt="Plissee Weiß" title="Click image to enlarge and see detailed information."></a>
 
                     <div class="cl"> </div>
-                    <span class="tytul">Unicolor</span> - Preisgruppe 0 | lichtdurchlässig | blickdicht
+                    <span class="tytul">Allegto</span> - Preisgruppe 1 | lichtdurchlässig | blickdicht Außenseite mit Reflexbeschichtung
                     <div class="clear"> </div>
 
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#15-unicolor-1200-wei" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/15_faltstore_weiss.jpg" alt="Faltstore Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#16-unicolor-1201-hellgelb" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/16_faltstore_hellgelb.jpg" alt="Faltstore Hellgelb" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#17-unicolor-1202-lachscream" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/17_faltstore_lachscream.jpg" alt="Faltstore Lachscream" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#18-unicolor-1203-beige" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/18_faltstore_beige.jpg" alt="Faltstore Beige" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#19-unicolor-1206-cream" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/19_faltstore_cream.jpg" alt="Faltstore Cream" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#20-unicolor-1208-helllachscrem" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/20_faltstore_helllachscream.jpg" alt="Faltstore Helllachscream" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#21-unicolor-1212-gelborange" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/21_faltstore_gelborange.jpg" alt="Faltstore Gelborange" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#22-unicolor-1213-grau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/22_faltstore_grau.jpg" alt="Faltstore Grau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#23-unicolor-079-himbeerrot" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/23_faltstore_himbeerrot.jpg" alt="Faltstore Himbeerrot" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#24-unicolor-084-hellbraun" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/24_faltstore_hellbraun.jpg" alt="Faltstore Hellbraun" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#25-unicolor-085-anthrazit" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/25_faltstore_anthrazit.jpg" alt="Faltstore Anthrazit" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#26-unicolor-087-gelb" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/26_faltstore_gelb.jpg" alt="Faltstore Gelb" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#27-unicolor-089-dunkelblau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/27_faltstore_dunkelblau.jpg" alt="Faltstore Dunkelblau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#28-unicolor-1214-rotbraun" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/28_faltstore_rotbraun.jpg" alt="Faltstore Rotbraun" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#128-unicolor-090-apfelgrn" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unicolor/090_faltstore_apfelgruen.jpg" alt="Faltstore Apfelgrün" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%20084%20Hellbraun.jpeg" alt="Plissee Perlex Elfenbein" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%20085%20Anthrazit.jpeg" alt="Plissee Perlex Latte" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%20087%20Gelb.jpeg" alt="Plissee Perlex Hellbeige" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%20090%20Apfelgrün.jpeg" alt="Plissee Perlex Braun" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%201200%20Weiß.jpeg" alt="Plissee Perlex Anthrazit" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%201201%20Hellgelb.jpeg" alt="Plissee Perlex Dunkelgrau" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%201202%20Lachscream.jpeg" alt="Plissee Perlex Cream" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%201203%20Beig.jpeg" alt="Plissee Perlex Gelb" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%201206%20Cream.jpeg" alt="Plissee Perlex Violet" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%201208%20Helllachscr..jpeg" alt="Plissee Perlex Apfelgrün" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNIREFLEX%202150%20Weiß.jpeg" alt="Plissee Perlex Weiß" title="Click image to enlarge and see detailed information."></a>
 
-                    <div class="cl"> </div>
-                    <span class="tytul">Unireflex</span> - Preisgruppe 1 I lichtdurchlässig I blickdicht I Außenseite mit Reflexbeschichtung
-                    <div class="clear"> </div>
+                    <div class="cl">
+                        <img src="/img/de-montage-plissee1-page-001.jpg" style="width:1000px;height:600px;">
+                        <img src="/img/de-montage-plissee1-page-002.jpg" style="width:1000px;height:600px;">
+                        <img src="/img/de-montage-plissee2-page-001.jpg" style="width:1000px;height:600px;">
+                        <img src="/img/de-montage-plissee2-page-002.jpg" style="width:1000px;height:600px;">
+                    </div>
 
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#29-unireflex-2150-wei" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unireflex/29_faltrollo_weiss.jpg" alt="Faltrollo Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#30-unireflex-2151-hellgrn" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unireflex/30_faltrollo_hellgruen.jpg" alt="Faltrollo Hellgrün" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#31-unireflex-2152-cream" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unireflex/31_faltrollo_cream.jpg" alt="Faltrollo Cream" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#32-unireflex-2153-gelb" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unireflex/32_faltrollo_gelb.jpg" alt="Faltrollo Gelb" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#33-unireflex-2156-hellbeige" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unireflex/33_faltrollo_hellbeige.jpg" alt="Faltrollo Hellbeige" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#34-unireflex-2157-beige" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unireflex/34_faltrollo_beige.jpg" alt="Faltrollo Beige" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#36-unireflex-2160-grau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unireflex/36_faltrollo_grau.jpg" alt="Faltrollo Grau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#129-unireflex-264-gelb" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unireflex/264_faltrollo_sonnengelb.jpg" alt="Faltrollo Sonnengelb" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#130-unireflex-271-braun" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unireflex/271_faltrollo_braun.jpg" alt="Faltrollo Braun" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#131-unireflex-165-grn" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unireflex/165_faltrollo_gruen.jpg" alt="Faltrollo Grün" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#132-unireflex-266-rosa" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unireflex/266_faltrollo_rosa.jpg" alt="Faltrollo Rosa" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#133-unireflex-274-blau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/unireflex/274_faltrollo_blau.jpg" alt="Faltrollo Blau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-
-                    <div class="cl"> </div>
-                    <span class="tytul">Cara Perl</span> - Preisgruppe 1 | lichtdurchlässig | blickdicht Außenseite mit Reflexbeschichtung
-                    <div class="clear"> </div>
-
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#37-cara-perl-051-elfenbein" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/cara-perl/37_plissee_perlex_elfenbein.jpg" alt="Plissee Perlex Elfenbein" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#38-cara-perl-052-latte" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/cara-perl/38_plissee_perlex_latte.jpg" alt="Plissee Perlex Latte" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#39-cara-perl-053-hellbeige" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/cara-perl/39_plissee_perlex_hellbeige.jpg" alt="Plissee Perlex Hellbeige" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#40-cara-perl-054-braun" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/cara-perl/40_plissee_perlex_braun.jpg" alt="Plissee Perlex Braun" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#41-cara-perl-055-anthrazit" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/cara-perl/41_plissee_perlex_anthrazit.jpg" alt="Plissee Perlex Anthrazit" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#42-cara-perl-056-dunkelgrau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/cara-perl/42_plissee_perlex_dunkelgrau.jpg" alt="Plissee Perlex Dunkelgrau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#43-cara-perl-057-cream" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/cara-perl/43_plissee_perlex_cream.jpg" alt="Plissee Perlex Cream" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#44-cara-perl-058-gelb" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/cara-perl/44_plissee_perlex_gelb.jpg" alt="Plissee Perlex Gelb" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#45-cara-perl-062-violett" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/cara-perl/45_plissee_perlex_violet.jpg" alt="Plissee Perlex Violet" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#46-cara-perl-063-apfelgrn" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/cara-perl/46_plissee_perlex_apfelgruen.jpg" alt="Plissee Perlex Apfelgrün" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#47-cara-perl-066-wei" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/cara-perl/47_plissee_perlex_weiss.jpg" alt="Plissee Perlex Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#48-cara-perl-068-hellgrau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/cara-perl/48_plissee_perlex_hellgrau.jpg" alt="Plissee Perlex Hellgrau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-
-                    <div class="cl"> </div>
-                    <span class="tytul">Crush Gardine</span> - Preisgruppe 1 I lichtdurchlässig I transparent
-                    <div class="clear"> </div>
-
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#57-crush-gardine-0120-orangerot" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-gardine/57_plissee_gardine_orange.jpg" alt="Plissee Gardine Orange" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#58-crush-gardine-0121-terracotta" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-gardine/58_plissee_gardine_terracotta.jpg" alt="Plissee Gardine Terracotta" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#59-crush-gardine-0122-curry" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-gardine/59_plissee_gardine_curry.jpg" alt="Plissee Gardine Curry" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#60-crush-gardine-0123-grau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-gardine/60_plissee_gardine_grau.jpg" alt="Plissee Gardine Grau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#61-crush-gardine-0124-sand" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-gardine/61_plissee_gardine_sand.jpg" alt="Plissee Gardine Sand" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#62-crush-gardine-0125-wei" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-gardine/62_plissee_gardine_weiss.jpg" alt="Plissee Gardine Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#63-crush-gardine-0126-grn" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-gardine/63_plissee_gardine_gruen.jpg" alt="Plissee Gardine Grün" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-
-                    <div class="cl"> </div>
-                    <span class="tytul">Crush</span> - Preisgruppe 1 I lichtdurchlässig I blickdicht
-                    <div class="clear"> </div>
-
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#65-crush-2203-gelb" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush/65_crush_blickdicht_gelb.jpg" alt="Crush Blickdicht Gelb" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#66-crush-2205-latte" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush/66_crush_blickdicht_latte.jpg" alt="Crush Blickdicht Latte" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#67-crush-2210-grau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush/67_crush_blickdicht_grau.jpg" alt="Crush Blickdicht Grau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#68-crush-3000-lachscream" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush/8003_crush_blickdicht_lachscream.jpg" alt="Crush Blickdicht Lachscream" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#69-crush-5000-apricose" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush/8005_crush_blickdicht_apricose.jpg" alt="Crush Blickdicht Apricose" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#134-crush-526-wei" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush/526_crush_blickdicht_weiss.jpg" alt="Crush Blickdicht Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#135-crush-527-elfenbein" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush/527_crush_blickdicht_elfenbein.jpg" alt="Crush Blickdicht Elfenbein" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#136-crush-537-grn" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush/537_crush_blickdicht_gruen.jpg" alt="Crush Blickdicht Grün" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#137-crush-533-rot" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush/533_crush_blickdicht_rot.jpg" alt="Crush Blickdicht Rot" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#138-crush-535-beigebraun" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush/535_crush_blickdicht_beigebraun.jpg" alt="Crush Blickdicht Belgebraun" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#139-crush-536-beige" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush/536_crush_blickdicht_beige.jpg" alt="Crush Blickdicht Beige" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#140-crush-531-taubenblau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush/531_crush_blickdicht_taubenblau.jpg" alt="Crush Blickdicht Taubenblau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#141-crush-539-blau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush/539_crush_blickdicht_blau.jpg" alt="Crush Blickdicht Blau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-
-                    <div class="cl"> </div>
-                    <span class="tytul">Crush Reflex</span> - Preisgruppe 2 I lichtdurchlässig I blickdicht I Außenseite mit Reflexbeschichtung
-                    <div class="clear"> </div>
-
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#70-crush-reflex-2250-wei" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/70_crush_perlex_weiss.jpg" alt="Crush Perlex Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#71-crush-reflex-2251-hellgrn" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/71_crush_perlex_hellgruen.jpg" alt="Crush Perlex Hellgrün" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#72-crush-reflex-2253-gelb" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/72_crush_perlex_gelb.jpg" alt="Crush Perlex Gelb" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#73-crush-reflex-2255-latte" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/73_crush_perlex_latte.jpg" alt="Crush Perlex Latte" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#74-crush-reflex-2262-cream" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/74_crush_perlex_cream.jpg" alt="Crush Perlex Cream" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#75-crush-reflex-4000-grn" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/8014_crush_perlex_gruen.jpg" alt="Crush Perlex Grün" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#76-crush-reflex-5000-terracotta" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/8015_crush_perlex_terracotta.jpg" alt="Crush Perlex Terracotta" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#77-crush-reflex-6000-blue" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/8016_crush_perlex_blue.jpg" alt="Crush Perlex Blue" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#78-crush-reflex-7006-lila" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/78_crush_perlex_lila.jpg" alt="Crush Perlex Lila" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#80-crush-reflex-7078-braun" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/80_crush_perlex_braun.jpg" alt="Crush Perlex Braun" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#158-crush-reflex-5175-elfenbein" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/5175_crush_perlex_elfenbein.jpg" alt="Crush Perlex Elfenbein" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#159-crush-reflex-7013-pearlcream" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/7013_crush_perlex_pearlcream.jpg" alt="Crush Perlex Pearlcream" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#160-crush-reflex-6452-sand" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/6452_crush_perlex_sand.jpg" alt="Crush Perlex Sand" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#161-crush-reflex-5177-sandbeige" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/5177_crush_perlex_sandbeige.jpg" alt="Crush Perlex Sandbeige" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#162-crush-reflex-7008-braunbeige" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/7008_crush_perlex_braunbeige.jpg" alt="Crush Perlex Braunbeige" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#163-crush-reflex-7007-hellbeige" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/7007_crush_perlex_hellbeige.jpg" alt="Crush Perlex Hellbeige" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#164-crush-reflex-6433-sonnengelb" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/6433_crush_perlex_sonnengelb.jpg" alt="Crush Perlex Sonnengelb" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#165-crush-reflex-5618-orange" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/5618_crush_perlex_orange.jpg" alt="Crush Perlex Orange" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#166-crush-reflex-7040-rot" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/7040_crush_perlex_rot.jpg" alt="Crush Perlex Rot" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#167-crush-reflex-5176-grau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/5176_crush_perlex_grau.jpg" alt="Crush Perlex Grau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#168-crush-reflex-7004-hellgrau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/7004_crush_perlex_hellgrau.jpg" alt="Crush Perlex Hellgrau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#169-crush-reflex-7079-dunkelblau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/7079_crush_perlex_dunkelblau.jpg" alt="Crush Perlex Dunkelblau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#170-crush-reflex-7550-rosaviolett" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/7550_crush_perlex_rosaviolett.jpg" alt="Crush Perlex Rosaviolett" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#171-crush-reflex-7011-violett" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/7011_crush_perlex_violett.jpg" alt="Crush Perlex Violett" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#172-crush-reflex-7100-dunkelgrau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/crush-reflex/7100_crush_perlex_dunkelgrau.jpg" alt="Crush Perlex Dunkelgrau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-
-                    <div class="cl"> </div>
-                    <span class="tytul">White Edition</span> - Preisgruppe 2 I lichtdurchlässig
-                    <div class="clear"> </div>
-
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#81-white-edition-brussels-1300" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/white-edition/81_plissee_faltstore.jpg" alt="Plissee Faltstore" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#83-white-edition-nice-2602" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/white-edition/83_plissee_faltstore.jpg" alt="Plissee Faltstore" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#84-white-edition-valencia-2751" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/white-edition/84_plissee_faltstore.jpg" alt="Plissee Faltstore" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#85-white-edition-we-070" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/white-edition/85_plissee_weiss.jpg" alt="Plissee Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#86-white-edition-we-2700" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/white-edition/86_plissee_weiss.jpg" alt="Plissee Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#87-white-edition-we-2800" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/white-edition/87_plissee_weiss.jpg" alt="Plissee Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#88-white-edition-kent-6351" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/white-edition/88_plissee_weiss.jpg" alt="Plissee Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#89-white-edition-kent-6353" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/white-edition/89_plissee_faltstore.jpg" alt="Plissee Faltstore" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#90-white-edition-sofia-8411" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/white-edition/90_plissee_faltstore.jpg" alt="Plissee Faltstore" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#91-white-edition-athens-8533" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/white-edition/91_plissee_faltstore.jpg" alt="Plissee Faltstore" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#93-white-edition-long-crush-551" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/white-edition/93_plissee_weiss.jpg" alt="Plissee Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#94-white-edition-primavera-589" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/white-edition/94_plissee_faltstore.jpg" alt="Plissee Faltstore" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#185-arabesque-30571" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Arabesque_30571-300.jpg" alt="Arabesque 30571" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#186-linea-30226" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Linea_30226-300.jpg" alt="Linea 30226" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#187-linea-30227" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Linea_30227-300.jpg" alt="Linea 30227" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#188-techno-30531" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Techno_30531-300.jpg" alt="Techno 30531" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#189-techno-30532" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Techno_30532-300.jpg" alt="Techno 30532" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#190-battra-30551" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Battra_30551-300.jpg" alt="Battra 30551" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#191-kastale-30811" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Kastale_30811-300.jpg" alt="Kastale 30811" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#192-liana-30332" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Liana_30332-300.jpg" alt="Liana 30332" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#193-liana-30334" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Liana_30334-300.jpg" alt="Liana 30334" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#194-maleza-30403" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Maleza_30403-300.jpg" alt="Maleza 30403" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#195-retro-30071" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Retro_30071-300.jpg" alt="Retro 30071" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#196-twist-30431" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Twist_30431-300.jpg" alt="Twist 30431" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#197-triangle-40181" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Triangle_40181-300.jpg" alt="Triangle 40181" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#198-triangle-40182" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Triangle_40182-300.jpg" alt="Triangle 40182" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#199-triangle-40183" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Triangle_40183-300.jpg" alt="Triangle 40183" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#200-primavera-30311" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Primavera_30311-300.jpg" alt="Primavera 30311" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#201-primavera-30312" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Primavera_30312-300.jpg" alt="Primavera 30312" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#202-primavera-30314" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Primavera_30314-300.jpg" alt="Primavera 30314" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#203-primavera-30315" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/white-edition/Primavera_30315-300.jpg" alt="Primavera 30315" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-
-                    <div class="cl"> </div>
-                    <span class="tytul">Black Edition</span> - Preisgruppe 2 I lichtdurchlässig
-                    <div class="clear"> </div>
-
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#95-black-edition-bergen-2400" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/black-edition/95_plissee_blickdicht.jpg" alt="Plissee Blickdicht" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#97-black-edition-amazone-2702" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/black-edition/97_plissee_blickdicht.jpg" alt="Plissee Blickdicht" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#98-black-edition-be-4856" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/black-edition/98_plissee_blickdicht.jpg" alt="Plissee Blickdicht" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#99-black-edition-kent-6350" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/black-edition/99_plissee_blickdicht.jpg" alt="Plissee Blickdicht" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#100-black-edition-jakarta-8450" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/black-edition/100_plissee_blickdicht.jpg" alt="Plissee Blickdicht" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#101-black-edition-jakarta-8452" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/black-edition/101_plissee_blickdicht.jpg" alt="Plissee Blickdicht" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-
-                    <div class="cl"> </div>
-                    <span class="tytul">Dim</span> - Preisgruppe 3 I lichtdurchlässig I blickdicht I Außenseite mit Reflexbeschichtung
-                    <div class="clear"> </div>
-
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#107-dim-out-887-lemon" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/dim/107_plissee_lichtdurchlaessig_lemon.jpg" alt="Plissee Lichtdurchläßig Lemon" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#108-dim-out-890-wei" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/dim/108_plissee_lichtdurchlaessig_weiss.jpg" alt="Plissee Lichtdurchläßig Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#109-dim-out-891-cream" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/dim/109_plissee_lichtdurchlaessig_cream.jpg" alt="Plissee Lichtdurchläßig Cream" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#110-dim-out-892-nature" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/dim/110_plissee_lichtdurchlaessig_nature.jpg" alt="Plissee Lichtdurchläßig Nature" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#111-dim-out-893-hellbeige" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/dim/111_plissee_lichtdurchlaessig_hellbeige.jpg" alt="Plissee Lichtdurchläßig Hellbeige" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#112-dim-out-898-braunbeige" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/dim/112_plissee_lichtdurchlaessig_beige.jpg" alt="Plissee Lichtdurchläßig Beige" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-
-                    <div class="cl"> </div>
-                    <span class="tytul">Somnio</span> - Preisgruppe 3 I verdunkelnd I blickdicht I Außenseite mit Reflexbeschichtung
-                    <div class="clear"> </div>
-
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#113-somnio-verdunklung-001-wei" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/113_plissee-verdunklung_weiss.jpg" alt="Plissee Verdunklung Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#114-somnio-761-verdunklung" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/114_plissee-verdunklung_elfenbein.jpg" alt="Plissee Verdunklung Elfenbein" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#115-somnio-763-verdunklung" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/115_plissee-verdunklung_grau.jpg" alt="Plissee Verdunklung Grau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#116-somnio-770-verdunklung" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/116_plissee-verdunklung_gelb.jpg" alt="Plissee Verdunklung Gelb" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#117-somnio-771-verdunklung" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/117_plissee-verdunklung_orange.jpg" alt="Plissee Verdunklung Orange" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#118-somnio-772-verdunklung" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/118_plissee-verdunklung_rot.jpg" alt="Plissee Verdunklung Rot" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#119-somnio-774-verdunklung" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/119_plissee-verdunklung_blau.jpg" alt="Plissee Verdunklung Blau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#120-somnio-777-verdunklung" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/120_plissee-verdunklung_hellbeige.jpg" alt="Plissee Verdunklung Hellbeige" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#121-somnio-913-verdunklung" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/121_plissee-verdunklung_braun.jpg" alt="Plissee Verdunklung Braun" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#148-somnio-762-verdunklung" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/762_plissee-verdunklung_mint.jpg" alt="Plissee Verdunklung Mint" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#149-somnio-769-verdunklung" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/769_plissee-verdunklung_gruen.jpg" alt="Plissee Verdunklung Grün" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#173-somnio-704-verdunklung" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/Somnio-BO704-Sandgelb.jpg" alt="Plissee Verdunklung Sandgelb" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#180-somnio-712-verdunklung" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/Somnio-BO712-Schwarz.jpg" alt="Plissee Verdunklung Schwarz" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#178-somnio-717-verdunklung" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/Somnio-BO717-Beigegrau.jpg" alt="Plissee Verdunklung Beigegrau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#176-somnio-718-verdunklung" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/Somnio-BO718-Rosa.jpg" alt="Plissee Verdunklung Rosa" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#177-somnio-720-verdunklung" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/Somnio-BO720-Himmelblau.jpg" alt="Plissee Verdunklung Himmelblau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#175-somnio-721-verdunklung" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/Somnio-BO721-Lachs.jpg" alt="Plissee Verdunklung Lachs" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#179-somnio-722-verdunklung" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/Somnio-BO722-Graphitgrau.jpg" alt="Plissee Verdunklung Graphitgrau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-
-                    <div class="cl"> </div>
-                    <span class="tytul">BO</span> - Preisgruppe 3 I verdunkelnd I blickdicht
-                    <div class="clear"> </div>
-
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#122-bo-3113-verdunklung" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/122_plissee-verdunklung_weiss.jpg" alt="Plissee Verdunklung Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#123-bo-3114-verdunklung" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/123_plissee-verdunklung_blau.jpg" alt="Plissee Verdunklung Blau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#124-bo-4886-verdunklung" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/somnio-BO/124_faltstore-verdunklung_weiss.jpg" alt="Faltstore Verdunklung Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-
-                    <div class="cl"> </div>
-                    <span class="tytul">Duett</span> -  Preisgruppe 4 I verdunkelnd I blickdicht
-                    <div class="clear"> </div>
-
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#150-duett-920-wei" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/duett/wabenplissee-verdunkelung-920-weiss.jpg" alt="Wabenplissee Verdunkelung Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#151-duett-926-terracotta" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/duett/wabenplissee-verdunkelung-926-terracotta.jpg" alt="Wabenplissee Verdunkelung Terracotta" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#152-duett-927-braun" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/duett/wabenplissee-verdunkelung-927-braun.jpg" alt="Wabenplissee Verdunkelung Braun" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#153-duett-929-sonnengelb" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/duett/wabenplissee-verdunkelung-929-sonnengelb.jpg" alt="Wabenplissee Verdunkelung Sonnengelb" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#154-duett-931-grn" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/duett/wabenplissee-verdunkelung-931-gruen.jpg" alt="Wabenplissee Verdunkelung Grün" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#155-duett-934-blau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/duett/wabenplissee-verdunkelung-934-blau.jpg" alt="Wabenplissee Verdunkelung Blau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#156-duett-938-hellbeige" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/duett/wabenplissee-verdunkelung-938-hellbeige.jpg" alt="Wabenplissee Verdunkelung Hellbeige" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#157-duett-943-grau" target="_blank"><img src="//www.plissee-zeit.de/collections-stoffe/duett/wabenplissee-verdunkelung-943-grau.jpg" alt="Wabenplissee Verdunkelung Grau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-
-                    <div class="cl"> </div>
-                    <span class="tytul">Duett Light</span><a class="duettelink" href="//www.plissee-zeit.de/plissee-duette.php" title="Plissee Duette" target="_blank"><img class="duetteinfo" src="//www.plissee-zeit.de/ebay2015/info.png" alt="Plissee Duette"></a>  Preisgruppe 3 I lichtdurchlässig I blickdicht
-                    <div class="clear"> </div>
-
-
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#181-duett-light-901-weiss" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/duett-light/Duett-Light-901-Weiss-m.jpg" alt="Wabenplissee Lichtdurchläßig Weiß" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#182-duett-light-902-cream" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/duett-light/Duett-Light-902-Cream-m.jpg" alt="Wabenplissee Lichtdurchläßig Cream" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#183-duett-light-916-latte" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/duett-light/Duett-Light-916-Latte-m.jpg" alt="Wabenplissee Lichtdurchläßig Latte" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-                    <a href="//www.plissee-zeit.de/cosiflor/stoffxl/#184-duett-light-903-hellgrau" target="_blank">
-                        <img src="//www.plissee-zeit.de/collections-stoffe/duett-light/Duett-Light-903-Hellgrau-m.jpg" alt="Wabenplissee Lichtdurchläßig Hellgrau" title="Bild zum Vergrößern anklicken und detaillierte Infos anzeigen."></a>
-
-                    <div class="cl"> </div>
 
                     <p class="achtung">ACHTUNG! Farben werden individuell sehr unterschiedlich wahrgenommen, die Darstellung variiert zudem je nach genutzter Computerhardware. Farbabweichungen zwischen Abbildung und realem Stoff sind deshalb unvermeidbar! Bestellen Sie deswegen unbedingt kostenlose Stoffmuster vor dem Kauf.</p>
 
-
-
                 </div>
-
-            </div>
         </section>
 
 
@@ -475,7 +281,32 @@
 </div>
 <script type="text/javascript">
 
-    var materialPriceGroup ={"Yellow1":"0","Yellow2":"1"};
+    var materialPriceGroup =
+        {
+            "C1":"0",
+            "C2":"0",
+            "C3":"0",
+            "C4":"0",
+            "C5":"0",
+            "C6":"0",
+            "C7":"0",
+            "C8":"0",
+            "C9":"0",
+            "C10":"0",
+            "C11":"0",
+            "U1":"1",
+            "U2":"1",
+            "U3":"1",
+            "U4":"1",
+            "U5":"1",
+            "U6":"1",
+            "U7":"1",
+            "U8":"1",
+            "U9":"1",
+            "U10":"1",
+            "U11":"1"
+
+        };
     var priceWidhtHeight =
         {
             "0":

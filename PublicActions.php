@@ -63,6 +63,7 @@ try
             $error = 'Orders are null or empty';
             throw new UnexpectedValueException($error);
         }
+
         $result = mysqli_query($db,"INSERT INTO TRN_TRANSACTION(POSTED_USER, DATE, AMOUNT) VALUES('" . $ebayun . "',now()," . $totalPrice . ");");
         //Get last inserted record (to return to jTable)
         $result = mysqli_query($db,"SELECT TRANSACTION_ID FROM TRN_TRANSACTION WHERE TRANSACTION_ID = LAST_INSERT_ID();");
@@ -76,6 +77,7 @@ try
         $jTableResult = array();
         $jTableResult['Result'] = "OK";
         $jTableResult['Records'] = $row;
+        $jTableResult['TotalPrice'] = $totalPrice;
         print json_encode($jTableResult);
     }
     //Getting list of products

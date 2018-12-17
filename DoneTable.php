@@ -20,7 +20,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 	
   </head>
   <body background="/img/BG.jpg">
-  	<div><button type="button" style="height:30px;width:120px"><b>AUSLOGGEN</b></button></div>
+  <form action="logout.php"><button type="submit" style="height:30px;width:120px"><b>LOG OUT</b></button></form>
   	<form style="color: black">
   		<button type="submit" id="Filter_Button" style="height:30px; width:100px"><b>FILTER</b></button>
   		&emsp;
@@ -162,8 +162,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 	</script>
 			<div style="height: 5px"></div>
-			<button style="height:33px; width:150px" type="button" onclick="location.href='/willtable.php';"><b>VERKAUFT</b></button>
-			<button style="height:33px; width:150px" type="button" onclick="location.href='/deletedtable.php';"><b>GELÖSCHT</b></button>
+			<button style="height:33px; width:150px" type="button" onclick="location.href='willtable.php';"><b>WILL</b></button>
+			<button style="height:33px; width:150px" type="button" onclick="location.href='deletedtable.php';"><b>DELETED</b></button>
   	</div>
   </body>
 </html>
