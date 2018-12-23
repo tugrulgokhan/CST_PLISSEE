@@ -19,16 +19,16 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <script src="Scripts/jtable/jquery.jtable.js" type="text/javascript"></script>
 	
   </head>
-  <body background="/img/BG.jpg">
-  <form action="logout.php"><button type="submit" style="height:30px;width:120px"><b>LOG OUT</b></button></form>
+  <body >
+  <form action="logout.php"><button type="submit" style="height:30px;width:120px; float: right; background-color: red; color: white; border-radius: 40px/40px; "><b>LOG OUT</b></button></form>
   	<form style="color: black">
-  		<button type="submit" id="Filter_Button" style="height:30px; width:100px"><b>FILTER</b></button>
-  		<b>NUTZER:     </b><input type="text" name="user_filter" id="user_filter" style="height:30px;width:170px" />
-  		<b>DATUM:     </b><input type="text" name="date_filter" id="date_filter" style="height:30px;width:260px" />		
+  		<button type="submit" id="Filter_Button" style="height:30px; width:150px; background-color: black; color: white; border-radius: 40px/40px;"><b>FILTER</b></button>
+  		<b>NUTZER:     </b><input type="text" name="user_filter" id="user_filter" style="height:30px;width:370px;border-radius: 40px/40px;" />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  		<b>DATUM:     </b><input type="text" name="date_filter" id="date_filter" style="height:30px;width:400px;border-radius: 40px/40px;" />
     </form>
   	
   	<div style="height: 5px" ></div>
-	<div id="PeopleTableContainer" style="width: 900px;"></div>
+	<div id="PeopleTableContainer" style="width: 100%;"></div>
 	<script type="text/javascript">
  		
 		$(document).ready(function () {
@@ -184,9 +184,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 		});
 
 	</script>
-			
-			<button style="height:33px; width:150px" type="button" onclick="location.href='donetable.php';"><b>DONE</b></button>
-			<button style="height:33px; width:150px" type="button" onclick="location.href='deletedtable.php';"><b>DELETED</b></button>
-  	</div>
+  <div>
+      <button style="width: 50%; height: 10%; background-color: darkgreen; color: white; font-size: xx-large; border-radius: 40px/40px; " type="button" onclick="location.href='donetable.php';"><b>DONE</b></button><button style="width: 50%; height: 10%; background-color: #003f54; color: white; font-size: xx-large; border-radius: 40px/40px; " type="button" onclick="location.href='deletedtable.php';"><b>DELETED</b></button>
+  </div>
+
+
   </body>
 </html>

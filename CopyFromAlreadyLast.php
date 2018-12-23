@@ -1,17 +1,17 @@
 <html><head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="http://stoffmuster.plissee-zeit.de/load_resources/css/0.css">
-    <link rel="stylesheet" type="text/css" href="http://www.plissee-zeit.de/ebay2017/ebayshopv2.css">
+    <link rel="stylesheet" type="text/css" href="dert.css">
+    <link rel="stylesheet" type="text/css" href="tasa.css">
     <style type="text/css">
         .price { display: block; text-align: center; padding-top: 90px; font-weight: normal; }
         .price h5 { font-size: 1.4em; margin: 0 0 2px 0; font-weight: normal; }
         .price .error { color: #b9270b; }
         .basket { overflow: hidden; }
-        .basket .table-wrapper { max-height: 200px; overflow: auto; float: right; width: 93%; }
+        .basket .table-wrapper { max-height: 200px; overflow: auto; float: left; width: 93%; }
         .basket table { float: right; width: 93%; }
         .basket table tbody { font-size: 12px; }
-        .basket table tbody td { vertical-align: middle; }
-        .basket .total { font-size: 13px; text-align: right; float: right; padding-top: 5px; }
+        .basket table tbody td { vertical-align: left; padding-top: 5px;}
+        .basket .total { font-size: 13px; text-align: right; float: right; padding-top: 25px;}
         .basket table button.remove { color: #b9270b; padding: 0; border: none; background-color: transparent; vertical-align: middle; cursor: pointer; }
         .basket .total i { font-style: normal; font-size: 1.3em; color: #b9270b; }
         #orderContent { border: 1px solid #d6d6d6; }
@@ -43,9 +43,7 @@
     <div id="aukcja">
 
         <div id="top">
-           <!-- <div class="logo">www_plissee-zeit_de</div>
-            <div class="hotline"></div>
-            <img class="logoc" src="http://www.plissee-zeit.de/ebay2015/LOGO-Cosiflor-Systemtechnik.jpg"> -->
+           
         </div>
 
         <div id="utop">
@@ -62,7 +60,6 @@
         <div id="kalk">
 
             <div class="kalka">
-                <img class="krok" src="http://www.plissee-zeit.de/ebay2015/01.png">
                 <div class="clear"></div>
 
                 <div class="form">
@@ -154,11 +151,10 @@
                         <div class="clearfix"></div>
                     </div>
                 </div>
-                <img id="bCalculate" class="button1" src="http://www.plissee-zeit.de/ebay2015/bt1.png">
+                <img id="bCalculate" class="button1" src="/img/buttonCal.jpg">
             </div>
 
             <div class="kalkb">
-                <img class="krok" src="http://www.plissee-zeit.de/ebay2015/02.png">
                 <div class="clear"></div>
                 <div class="price">
                     <div id="priceWrapper" style="display: block;">
@@ -167,11 +163,10 @@
                     </div>
                     <span id="mError" class="error"></span>
                 </div>
-                <img id="bAdd" class="button2" src="http://www.plissee-zeit.de/ebay2015/bt2.png">
+                <img id="bAdd" class="button2" src="/img/ButtonAdd.jpg">
             </div>
 
             <div class="kalkc">
-                <img class="krok" src="http://www.plissee-zeit.de/ebay2015/03.png">
                 <div class="clear"></div>
                 <div class="basket">
                     <div class="table-wrapper">
@@ -180,7 +175,7 @@
                         </table>
                     </div>
                     <div class="total">
-                        <i>Gesamtbetrag: <span id="mTotal">0</span> Euro</i> inkl. MwSt.
+                        <i>Gesamtbetrag: <span  id="mTotal">0</span> Euro</i> inkl. MwSt.
                     </div>
                 </div>
                 <div class="clear"></div>
@@ -206,7 +201,7 @@
                 </div>
                 <div class="clear"></div>
                 <input type="text" style="width:250px" id="nickname" placeholder="Please Enter Your eBay Username" value="">
-                <img id="bSend" class="button4" src="http://www.plissee-zeit.de/ebay2015/senden.png">
+                <img id="bSend" class="button4" src="/img/ButtonSend.jpg">
                 <img id="loader2" src="http://www.plissee-zeit.de/ebay_desc/template2/img/loader2.gif" width="31" height="31">
                 <div id="response2Box"><p></p><button type="button">OK</button></div>
             </div>
@@ -235,43 +230,43 @@
                     <span class="tytul">Cara Perl</span> - Preisgruppe 0 | lichtdurchlässig | blickdicht
                     <div class="clear"> </div>
 
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20051%20Elfenbein.jpeg" alt="Plissee Beige" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20052%20Latte.jpeg" alt="Plissee Gelb" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20053%20Hellbeige.jpeg" alt="Plissee Cream" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20054%20Braun.jpeg" alt="Plissee Hellbeige" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20055%20Anthrazit.jpeg" alt="Plissee Lemon" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20056%20Dunkelgrau.jpeg" alt="Plissee Stahlblau" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20057%20Cream.jpeg" alt="Plissee Braun" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20058%20Gelb.jpeg" alt="Plissee Orange" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20062%20Violett.jpeg" alt="Plissee Blau" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20063%20Apfelgrün.jpeg" alt="Plissee Rosaviolet" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20One/CARA%20PERL%20066%20Weiß.jpeg" alt="Plissee Weiß" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20051%20Elfenbein.jpeg" alt="Plissee Beige" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20052%20Latte.jpeg" alt="Plissee Gelb" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20053%20Hellbeige.jpeg" alt="Plissee Cream" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20054%20Braun.jpeg" alt="Plissee Hellbeige" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20055%20Anthrazit.jpeg" alt="Plissee Lemon" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20056%20Dunkelgrau.jpeg" alt="Plissee Stahlblau" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20057%20Cream.jpeg" alt="Plissee Braun" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20058%20Gelb.jpeg" alt="Plissee Orange" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20062%20Violett.jpeg" alt="Plissee Blau" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20063%20Apfelgrün.jpeg" alt="Plissee Rosaviolet" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20066%20Weiß.jpeg" alt="Plissee Weiß" title="Click image to enlarge and see detailed information."></a>
 
                     <div class="cl"> </div>
                     <span class="tytul">Allegto</span> - Preisgruppe 1 | lichtdurchlässig | blickdicht Außenseite mit Reflexbeschichtung
                     <div class="clear"> </div>
 
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%20084%20Hellbraun.jpeg" alt="Plissee Perlex Elfenbein" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%20085%20Anthrazit.jpeg" alt="Plissee Perlex Latte" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%20087%20Gelb.jpeg" alt="Plissee Perlex Hellbeige" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%20090%20Apfelgrün.jpeg" alt="Plissee Perlex Braun" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%201200%20Weiß.jpeg" alt="Plissee Perlex Anthrazit" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%201201%20Hellgelb.jpeg" alt="Plissee Perlex Dunkelgrau" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%201202%20Lachscream.jpeg" alt="Plissee Perlex Cream" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%201203%20Beig.jpeg" alt="Plissee Perlex Gelb" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%201206%20Cream.jpeg" alt="Plissee Perlex Violet" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNICOLOR%201208%20Helllachscr..jpeg" alt="Plissee Perlex Apfelgrün" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="/img/Renkler/Type%20Two/UNIREFLEX%202150%20Weiß.jpeg" alt="Plissee Perlex Weiß" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%20084%20Hellbraun.jpeg" alt="Plissee Perlex Elfenbein" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%20085%20Anthrazit.jpeg" alt="Plissee Perlex Latte" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%20087%20Gelb.jpeg" alt="Plissee Perlex Hellbeige" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%20090%20Apfelgrün.jpeg" alt="Plissee Perlex Braun" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%201200%20Weiß.jpeg" alt="Plissee Perlex Anthrazit" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%201201%20Hellgelb.jpeg" alt="Plissee Perlex Dunkelgrau" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%201202%20Lachscream.jpeg" alt="Plissee Perlex Cream" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%201203%20Beig.jpeg" alt="Plissee Perlex Gelb" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%201206%20Cream.jpeg" alt="Plissee Perlex Violet" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%201208%20Helllachscr..jpeg" alt="Plissee Perlex Apfelgrün" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNIREFLEX%202150%20Weiß.jpeg" alt="Plissee Perlex Weiß" title="Click image to enlarge and see detailed information."></a>
 
                     <div class="cl">
-                        <img src="/img/de-montage-plissee1-page-001.jpg" style="width:1000px;height:600px;">
-                        <img src="/img/de-montage-plissee1-page-002.jpg" style="width:1000px;height:600px;">
-                        <img src="/img/de-montage-plissee2-page-001.jpg" style="width:1000px;height:600px;">
-                        <img src="/img/de-montage-plissee2-page-002.jpg" style="width:1000px;height:600px;">
+                        <img src="img//de-montage-plissee1-page-001.jpg" style="width:1100px;height:700px;">
+                        <img src="img/de-montage-plissee1-page-002.jpg" style="width:1100px;height:700px;">
+                        <img src="img/de-montage-plissee2-page-001.jpg" style="width:1100px;height:700px;">
+                        <img src="img/de-montage-plissee2-page-002.jpg" style="width:1100px;height:700px;">
                     </div>
 
 
-                    <p class="achtung">ACHTUNG! Farben werden individuell sehr unterschiedlich wahrgenommen, die Darstellung variiert zudem je nach genutzter Computerhardware. Farbabweichungen zwischen Abbildung und realem Stoff sind deshalb unvermeidbar! Bestellen Sie deswegen unbedingt kostenlose Stoffmuster vor dem Kauf.</p>
+                    <p class="achtung">ACHTUNG! Farben werden individuell sehr unterschiedlich wahrgenommen, die Darstellung variiert zudem je nach genutzter Computerhardware.</br> Farbabweichungen zwischen Abbildung und realem Stoff sind deshalb unvermeidbar! Bestellen Sie deswegen unbedingt kostenlose Stoffmuster vor dem Kauf.</p>
 
                 </div>
         </section>

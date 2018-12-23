@@ -27,8 +27,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
         <a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a>
     </p>
-    <button style="height:33px; width:150px" type="button" onclick="location.href='willtable.php';"><b>WILL</b></button>
-    <button style="height:33px; width:150px" type="button" onclick="location.href='deletedtable.php';"><b>DELETED</b></button>
-    <button style="height:33px; width:150px" type="button" onclick="location.href='donetable.php';"><b>DONE</b></button>
+    <button style="height:150px; width:450px; background-color: #7d0000; color: white; font-size: xx-large; border-radius: 40px/40px; " type="button" onclick="location.href='willtable.php';"><b>WILL</b></button>
+    <button style="height:150px; width:450px; background-color: #003f54; color: white; font-size: xx-large; border-radius: 40px/40px; "  type="button" onclick="location.href='deletedtable.php';"><b>DELETED</b></button>
+    <button style="height:150px; width:450px; background-color: darkgreen; color: white; font-size: xx-large; border-radius: 40px/40px; "  type="button" onclick="location.href='donetable.php';"><b>DONE</b></button>
 </body>
 </html>
