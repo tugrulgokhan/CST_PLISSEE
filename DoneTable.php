@@ -160,7 +160,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 	</script>
   <div>
-      <button style="width: 50%; height: 10%; background-color: #7d0000; color: white; font-size: xx-large; border-radius: 40px/40px; " type="button" onclick="location.href='willtable.php';"><b>WILL</b></button><button style="width: 50%; height: 10%; background-color: #003f54; color: white; font-size: xx-large; border-radius: 40px/40px; " type="button" onclick="location.href='donetable.php';"><b>DELETED</b></button>
+      <button style="width: 50%; height: 10%; background-color: #7d0000; color: white; font-size: xx-large; border-radius: 40px/40px; " type="button" onclick="location.href='willtable.php';"><b>WILL</b></button><button style="width: 50%; height: 10%; background-color: #003f54; color: white; font-size: xx-large; border-radius: 40px/40px; " type="button" onclick="location.href='deletedtable.php';"><b>DELETED</b></button>
   </div>
 
   </body>

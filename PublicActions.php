@@ -12,7 +12,7 @@ try
     if($_GET["action"] == "price")
     {
         $data = json_decode(file_get_contents('php://input'), true);
-        $height = $data['height'];
+        $height = $data['heigfht'];
         $width = $data['width'];
         $pid = $data['pid'];
         $result = mysqli_query($db,
@@ -70,7 +70,7 @@ try
         $row = mysqli_fetch_array($result);
 
         foreach($validOrders as $validOrder){
-            $result = mysqli_query($db,"INSERT INTO TRN_BASKET(HEIGHT, WIDTH, PID, PRICE, TRANSACTION_ID) VALUES('" . $validOrder['HEIGHT'] . "','" . $validOrder['WIDTH'] . "','" .$validOrder['PID']."','" .$validOrder['PRICE']."','" .$row[0]."'" . ");");
+            $result = mysqli_query($db,"INSERT INTO TRN_BASKET(HEIGHT, WIDTH, PID, PRICE, MATERIAL, COLOR, MONTAGE, TRANSACTION_ID) VALUES('" . $validOrder['HEIGHT'] . "','" . $validOrder['WIDTH'] . "','" .$validOrder['PID']."','".$validOrder['PRICE']."','".$validOrder['MATERIAL']."','".$validOrder['COLOR']."','".$validOrder['MONTAGE']."','".$row[0]."'" . ");");
         }
 
         //Return result to jTable

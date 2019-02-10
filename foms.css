@@ -1,0 +1,969 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td
+{
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-weight:inherit;
+font-style:inherit;
+font-size:100%;
+font-family:inherit;
+vertical-align:baseline}:focus{outline:0}body{line-height:1;
+color:black;
+background:white}
+ol,
+ul
+{
+list-style:none
+}
+table
+{
+border-collapse:separate;
+border-spacing:0
+}
+caption,
+th,
+td
+{
+text-align:left;
+font-weight:normal
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after
+{
+content:""
+}
+blockquote,
+q
+{
+quotes:"" ""
+}
+button.megahtml_button
+{
+background-color:#cfcfcf;
+width:auto;
+height:27px;
+border:1px solid #f6f6f6;
+border-bottom:1px solid #aaa;
+border-right:1px solid #aaa;
+padding:0 7px 0 7px !important;
+margin:2px 2px 2px 0 !important;
+cursor:pointer;
+overflow:visible;
+white-space:nowrap
+}
+button.megahtml_button:hover
+{
+border:1px solid #aaa;
+border-bottom:1px solid #666;
+border-right:1px solid #666;
+padding:0 8px 2px 6px;
+line-height:22px
+}
+button.megahtml_button img
+{
+padding:0 6px 0 0 !important;
+float:none;
+display:inline;
+vertical-align:top
+}
+button.megahtml_button span
+{
+float:none;
+display:inline;
+padding:0 !important;
+line-height:20px;
+font-size:11px;
+color:#000;
+font-weight:normal
+}
+button.plain-img,
+button.plain-img img,
+button.plain-img:hover
+{
+border:none !important;
+background-color:transparent;
+padding:0 !important;
+margin:0 !important;
+overflow:visible;
+height:auto}span.mega_anchor{display:inline;
+float:none;
+clear:none;
+white-space:nowrap}span.mega_anchor img{padding-right:3px;
+vertical-align:text-bottom}span.mega_anchor a{color:#d00}span.mega_anchor a:hover{color:#d00;
+text-decoration:none}a.mega_anchor_img{padding:0;
+margin:0}a.mega_anchor_img span{line-height:100%;
+text-align:center}body{background:#fff;
+line-height:150%;
+font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;
+font-size:11px;
+color:#6e6e6e}strong{font-weight:bold}a{font-weight:bold;
+text-decoration:none;
+color:#43821b;
+background:transparent}a:hover{font-weight:bold;
+text-decoration:underline;
+color:#43821b;
+background:transparent}p{font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;
+font-size:11px;
+color:#6e6e6e;
+line-height:170%;
+padding:5px 0 10px 0}input{font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;
+font-size:11px;
+color:#6e6e6e}ul{padding:0 0 15px 0}li{font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;
+font-size:11px;
+color:#6e6e6e;
+line-height:170%;
+padding:0 0 0 20px}h2{color:#282828;
+font-size:18px;
+text-shadow:1px 1px 1px #fff;
+margin:0 0 5px 0}h3{color:#535353;
+font-size:14px;
+font-family:Tahoma, Arial;
+margin:0 0 5px 0;
+font-weight:bold;
+border-bottom:2px solid #c4c0e5}.red_star{font-weight:bold;
+color:#a00;
+font-size:13px;
+padding-left:3px}.mbox_error_message_content{-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+border:1px solid #e1bfca;
+font-size:13px;
+line-height:130%;
+color:#640202;
+padding:14px 0 5px 50px;
+margin:10px 0;
+background:#fde7e4 url(https://stoffmuster.plissee-zeit.de/img/mbox_messages/error_icon.gif) no-repeat 12px 10px}.mbox_error_message_bottom{display:none}.mbox_error_message p{font-size:13px;
+line-height:130%;
+color:#640202;
+padding:0;
+margin:0}.mbox_error_message p.close_click{text-align:right;
+margin:0;
+padding:0 10px;
+color:#a9675d;
+cursor:pointer;
+font-size:11px}.mbox_message_content{-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+border:1px solid #b6ea6f;
+font-size:13px;
+line-height:130%;
+color:#2b6b05;
+padding:14px 0 5px 50px;
+margin:10px 0;
+background:#dfffb5 url(https://stoffmuster.plissee-zeit.de/img/mbox_messages/message_icon.gif) no-repeat 12px 10px}.mbox_message_bottom{display:none}.mbox_message p{font-size:13px;
+line-height:130%;
+color:#2b6b05;
+padding:0;
+margin:0}.mbox_message p.close_click{text-align:right;
+margin:0;
+padding:0 10px;
+color:#77b751;
+cursor:pointer;
+font-size:11px}.mbox_info_message_content{-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+border:1px solid #ebd18f;
+font-size:13px;
+line-height:130%;
+color:#5d1229;
+padding:14px 0 15px 50px;
+margin:10px 0;
+background:#fdecb7 url(https://stoffmuster.plissee-zeit.de/img/mbox_messages/message_icon.gif) no-repeat 12px 10px}.mbox_info_message_bottom{display:none}.mbox_info_message p{font-size:13px;
+line-height:130%;
+color:#5d1229;
+padding:0;
+margin:0}.green_box{position:relative;
+background-color:#fff;
+width:952px;
+padding:15px 0 0 0;
+margin:0 0 20px 0;
+background:transparent url(https://stoffmuster.plissee-zeit.de/img/common/green_box/top.png) no-repeat left top}.green_box .mega_box_title{display:none}.green_box .mega_box_content{width:904px;
+padding:7px 20px 7px 20px;
+background:#fff;
+overflow:hidden;
+border-left:4px solid #c3c2c7;
+border-right:4px solid #c3c2c7;
+background:#fff url(https://stoffmuster.plissee-zeit.de/img/common/green_box/content.png) repeat-x left bottom}.green_box .mega_box_bottom{width:952px;
+height:15px;
+background:transparent url(https://stoffmuster.plissee-zeit.de/img/common/green_box/bottom.png) no-repeat left top}.grey_box{float:left;
+position:relative;
+background-color:#fff;
+width:952px;
+margin:30px 0 20px 0;
+padding:5px 0 0 0;
+background:transparent url(https://stoffmuster.plissee-zeit.de/img/common/grey_box/top.png) no-repeat left top}.grey_box .mega_box_title{position:relative;
+float:left;
+height:40px;
+padding:0;
+margin:-40px 0 0 0;
+background:url(https://stoffmuster.plissee-zeit.de/img/common/grey_box/header.png) no-repeat top right}.grey_box .mega_box_title span{font-family:Tahoma;
+font-weight:bold;
+font-size:15px;
+float:left;
+height:40px;
+line-height:36px;
+color:#535353;
+padding:0 20px;
+background:url(https://stoffmuster.plissee-zeit.de/img/common/grey_box/title.png) no-repeat top left}.grey_box .mega_box_content{float:left;
+width:952px;
+background:#fff;
+overflow:hidden;
+background:transparent url(https://stoffmuster.plissee-zeit.de/img/common/grey_box/content.png) repeat-y left top}.grey_box .mega_box_bottom{float:left;
+width:952px;
+height:6px;
+background:transparent url(https://stoffmuster.plissee-zeit.de/img/common/grey_box/bottom.png) no-repeat left top}#page-wrap{width:986px;
+margin:0 auto}#header{width:986px;
+height:135px;
+float:left;
+position:relative;
+background:transparent url(https://stoffmuster.plissee-zeit.de/img/common/header.bg.png) no-repeat left top}#logo_header{position:absolute;
+top:23px;
+right:7px}#content{width:952px;
+padding:20px 0 0 0;
+float:left;
+background:transparent}#footer{width:986px;
+height:60px;
+padding:35px 0 0 0;
+float:left;
+background:transparent url(https://stoffmuster.plissee-zeit.de/img/common/footer.bg.png) no-repeat left top}#footer p{font-weight:bold;
+text-align:center;
+font-size:12px;
+line-height:170%;
+padding:0}#footer p span{padding:0 15px;
+font-weight:normal;
+color:#333}#footer p.credits{font-weight:normal;
+font-size:10px;
+color:#999}#customer_data{float:left;
+width:545px;
+padding:0 17px 0 0}#customer_data div{margin:3px 0 2px 0;
+float:left;
+width:545px;
+line-height:230%}#customer_data label{float:left;
+width:100px;
+height:27px;
+line-height:27px;
+color:#6e6e6e}#customer_data input{width:437px;
+height:17px;
+padding:5px 3px;
+line-height:17px;
+border:1px solid #bcc4c6;
+background:transparent url(https://stoffmuster.plissee-zeit.de/img/common/input.bg.png) repeat-x left top}#customer_data input#submit{width:98px;
+height:27px;
+border:none;
+float:right;
+color:#535353;
+font-weight:bold;
+background:transparent url(https://stoffmuster.plissee-zeit.de/img/common/button.bg.png) no-repeat left top}#customer_data input:focus{border:1px solid #3f7f1d}#filter_box ol{float:left;
+margin:0;
+padding:0}#filter_box ol li{float:left;
+width:245px;
+margin:0 15px 0 0;
+padding:0}#filter_box ol li h3{padding-bottom:5px}#filter_box #filter{width:98px;
+height:27px;
+border:none;
+float:right;
+color:#535353;
+font-weight:bold;
+font-size:11px;
+margin-top:50px;
+background:transparent url(https://stoffmuster.plissee-zeit.de/img/common/button.bg.png) no-repeat left top}#chosen_samples{position:relative;
+float:left;
+width:318px;
+height:245px;
+margin-top:16px;
+padding:12px;
+background:transparent url(https://stoffmuster.plissee-zeit.de/img/common/customer_order.bg.png) no-repeat left top}#chosen_samples input{display:none}#chosen_samples .sampler_item_wrapper_clone{float:left;
+position:relative}#chosen_samples img{margin:0 3px 6px 3px;
+border:2px solid #c30000;
+padding:1px}#chosen_samples .sampler_item_wrapper_clone_delete{cursor:pointer;
+background:url(https://stoffmuster.plissee-zeit.de/img/common/sampler_item_wrapper_clone_delete.png) no-repeat top left;
+position:absolute;
+width:26px;
+height:26px;
+top:3px;
+right:6px}.sampler_item_wrapper{float:left;
+width:96px;
+height:94px;
+padding:1px;
+border:2px solid #f5f5f5;
+margin:5px;
+position:relative}.sampler_item_wrapper p{white-space:nowrap;
+position:absolute;
+bottom:0;
+left:0;
+padding:0;
+margin:0;
+line-height:100%}.sampler_item_wrapper .zoom,.sampler_item_wrapper_clone .zoom{position:absolute;
+top:2px;
+left:2px;
+width:26px;
+height:26px;
+background:transparent url(https://stoffmuster.plissee-zeit.de/img/common/sampler.zoom.png) no-repeat 0 0}.sampler_item_wrapper_clone .zoom{top:3px;
+left:6px}.sampler_item_wrapper .zoom:hover,.sampler_item_wrapper_clone .zoom:hover{background:transparent url(https://stoffmuster.plissee-zeit.de/img/common/sampler.zoom.png) no-repeat 0 -26px}.sampler_fabric{float:left;
+padding:0;
+border:1px solid #333}.sampler_fabric img{float:left;
+cursor:pointer}.checked{border:2px solid #A50034}.checked div.yes{position:absolute;
+width:28px;
+height:28px;
+right:2px;
+top:2px;
+background:url(https://stoffmuster.plissee-zeit.de/img/common/sampler_fabric_selected.png) no-repeat top left;
+z-index:9}#fabrics_pool{float:left}#fancybox-loading{position:fixed;
+top:50%;
+left:50%;
+height:40px;
+width:40px;
+margin-top:-20px;
+margin-left:-20px;
+cursor:pointer;
+overflow:hidden;
+z-index:1104;
+display:none}* html #fancybox-loading{position:absolute;
+margin-top:0}#fancybox-loading div{position:absolute;
+top:0;
+left:0;
+width:40px;
+height:480px;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox.png)}#fancybox-overlay{position:fixed;
+top:0;
+left:0;
+bottom:0;
+right:0;
+background:#000;
+z-index:1100;
+display:none}* html #fancybox-overlay{position:absolute;
+width:100%}#fancybox-tmp{padding:0;
+margin:0;
+border:0;
+overflow:auto;
+display:none}#fancybox-wrap{position:absolute;
+top:0;
+left:0;
+margin:0;
+padding:20px;
+z-index:1101;
+display:none}#fancybox-outer{position:relative;
+width:100%;
+height:100%;
+background:#FFF}#fancybox-inner{position:absolute;
+top:0;
+left:0;
+width:1px;
+height:1px;
+padding:0;
+margin:0;
+outline:none;
+overflow:hidden}#fancybox-hide-sel-frame{position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:transparent}#fancybox-close{position:absolute;
+top:-15px;
+right:-15px;
+width:30px;
+height:30px;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox.png);
+background-position:-40px 0px;
+cursor:pointer;
+z-index:1103;
+display:none}#fancybox_error{color:#444;
+font:normal 12px/20px Arial;
+padding:7px;
+margin:0}#fancybox-content{height:auto;
+width:auto;
+padding:0;
+margin:0}#fancybox-img{width:100%;
+height:100%;
+padding:0;
+margin:0;
+border:none;
+outline:none;
+line-height:0;
+vertical-align:top;
+-ms-interpolation-mode:bicubic}#fancybox-frame{position:relative;
+width:100%;
+height:100%;
+border:none;
+display:block}#fancybox-title{position:absolute;
+bottom:0;
+left:0;
+font-family:Arial;
+font-size:12px;
+z-index:1102}.fancybox-title-inside{padding:10px 0;
+text-align:center;
+color:#333}.fancybox-title-outside{padding-top:5px;
+color:#FFF;
+text-align:center;
+font-weight:bold}.fancybox-title-over{color:#FFF;
+text-align:left}#fancybox-title-over{padding:10px;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_title_over.png);
+display:block}#fancybox-title-wrap{display:inline-block}#fancybox-title-wrap span{height:32px;
+float:left}#fancybox-title-left{padding-left:15px;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox.png);
+background-position:-40px -90px;
+background-repeat:no-repeat}#fancybox-title-main{font-weight:bold;
+line-height:29px;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox-x.png);
+background-position:0px -40px;
+color:#FFF}#fancybox-title-right{padding-left:15px;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox.png);
+background-position:-55px -90px;
+background-repeat:no-repeat}#fancybox-left,#fancybox-right{position:absolute;
+bottom:0px;
+height:100%;
+width:35%;
+cursor:pointer;
+outline:none;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/blank.gif);
+z-index:1102;
+display:none}#fancybox-left{left:0px}#fancybox-right{right:0px}#fancybox-left-ico,#fancybox-right-ico{position:absolute;
+top:50%;
+left:-9999px;
+width:30px;
+height:30px;
+margin-top:-15px;
+cursor:pointer;
+z-index:1102;
+display:block}#fancybox-left-ico{background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox.png);
+background-position:-40px -30px}#fancybox-right-ico{background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox.png);
+background-position:-40px -60px}#fancybox-left:hover,#fancybox-right:hover{visibility:visible}#fancybox-left:hover span{left:20px}#fancybox-right:hover span{left:auto;
+right:20px}.fancy-bg{position:absolute;
+padding:0;
+margin:0;
+border:0;
+width:20px;
+height:20px;
+z-index:1001}#fancy-bg-n{top:-20px;
+left:0;
+width:100%;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox-x.png)}#fancy-bg-ne{top:-20px;
+right:-20px;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox.png);
+background-position:-40px -162px}#fancy-bg-e{top:0;
+right:-20px;
+height:100%;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox-y.png);
+background-position:-20px 0px}#fancy-bg-se{bottom:-20px;
+right:-20px;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox.png);
+background-position:-40px -182px}#fancy-bg-s{bottom:-20px;
+left:0;
+width:100%;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox-x.png);
+background-position:0px -20px}#fancy-bg-sw{bottom:-20px;
+left:-20px;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox.png);
+background-position:-40px -142px}#fancy-bg-w{top:0;
+left:-20px;
+height:100%;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox-y.png)}#fancy-bg-nw{top:-20px;
+left:-20px;
+background-image:url(https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox.png);
+background-position:-40px -122px}#fancybox-loading.fancybox-ie div{background:transparent;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_loading.png', sizingMethod='scale')}.fancybox-ie #fancybox-close{background:transparent;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_close.png', sizingMethod='scale')}.fancybox-ie #fancybox-title-over{background:transparent;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_title_over.png', sizingMethod='scale');
+zoom:1}.fancybox-ie #fancybox-title-left{background:transparent;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_title_left.png', sizingMethod='scale')}.fancybox-ie #fancybox-title-main{background:transparent;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_title_main.png', sizingMethod='scale')}.fancybox-ie #fancybox-title-right{background:transparent;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_title_right.png', sizingMethod='scale')}.fancybox-ie #fancybox-left-ico{background:transparent;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_nav_left.png', sizingMethod='scale')}.fancybox-ie #fancybox-right-ico{background:transparent;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_nav_right.png', sizingMethod='scale')}.fancybox-ie .fancy-bg{background:transparent !important}.fancybox-ie #fancy-bg-n{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_shadow_n.png', sizingMethod='scale')}.fancybox-ie #fancy-bg-ne{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_shadow_ne.png', sizingMethod='scale')}.fancybox-ie #fancy-bg-e{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_shadow_e.png', sizingMethod='scale')}.fancybox-ie #fancy-bg-se{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_shadow_se.png', sizingMethod='scale')}.fancybox-ie #fancy-bg-s{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_shadow_s.png', sizingMethod='scale')}.fancybox-ie #fancy-bg-sw{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_shadow_sw.png', sizingMethod='scale')}.fancybox-ie #fancy-bg-w{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_shadow_w.png', sizingMethod='scale')}.fancybox-ie #fancy-bg-nw{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://stoffmuster.plissee-zeit.de/js/modules/fancybox/fancy_shadow_nw.png', sizingMethod='scale')}div{display:block;
+overflow:hidden}.clear{clear:both}#strona{width:1187px;
+font-family:Helvetica,Verdana,sans-serif;
+font-size:13px;
+line-height:1.3;
+color:#242424;
+background:white;
+margin:0 auto}#aukcja{padding:15px}#top{padding-bottom:5px;
+border-bottom:1px solid #D6D6D6;
+height:70px}.logo{width:217px;
+float:left;
+padding:5px}.logoc{width:217px;
+float:right;
+padding:5px}.hotline{float:left;
+margin-top:34px;
+font-size:14px;
+font-weight:600}#utop{margin-top:20px;
+border-bottom:1px solid #D6D6D6}.goratekst{text-align:center;
+font-size:11px}#utoplew{float:left;
+text-align:center;
+padding:30px}img.utopnr{margin:0 auto;
+display:block;
+width:50px;
+height:51px}img.utoprdt{margin-left:30px;
+margin-top:0}#pzmenu ul{margin:0;
+padding:0;
+list-style-type:none}#pzmenu li{display:inline-block;
+padding:15px;
+font-weight:600;
+text-align:center;
+background:#F5F5F5;
+width:130px;
+font-size:13px}#pzmenu li:hover{cursor:pointer;
+background:#469CDE;
+color:white}#pzmenu li.aktyw{border:1px solid #D6D6D6;
+border-bottom:1px solid white;
+background:white;
+color:black}#gl{margin-top:-1px}#gl > div{display:none}#gl #glse,#gl #glsn,#gl #glrg,#gl #glmn,#gl #glme,#gl #glpe,#gl #glmg{border:1px solid #D6D6D6;
+display:none}a.menu{display:inline-block;
+padding:15px;
+font-weight:600;
+text-align:center;
+background:#F5F5F5;
+width:138px;
+font-size:13px;
+text-decoration:none;
+color:black}a.menu:visited{color:black}a.menu:hover{cursor:pointer;
+background:#469CDE;
+color:white;
+text-decoration:none}.trzakl{padding:15px}#galp{height:471px;
+width:430px;
+overflow:hidden;
+position:relative;
+margin:0 auto;
+float:right;
+padding-top:61px;
+padding-right:60px}#galp .galpf{position:absolute;
+top:0;
+left:0;
+width:400px;
+height:400px;
+border:1px solid #D6D6D6;
+margin-top:61px}#galp .galfd{position:absolute;
+top:1000px;
+left:0;
+border:1px solid #D6D6D6}#galp a{float:left;
+margin:10px 0;
+margin-top:410px}.galfm{width:61px;
+margin-right:5px;
+border:1px solid #D6D6D6}#galp a:hover .galfd{top:0;
+width:400px;
+height:400px}#glse img{float:left;
+width:250px}img.szyny{width:100%;
+height:auto;
+margin-bottom:20px}.befestigung{padding:30px 0;
+border-bottom:1px solid #D6D6D6;
+font-size:15px}.befestigung h4{font-size:18px;
+margin-bottom:45px;
+margin-top:25px}.befestigung.pie{padding-top:15px !important}.befestigung.ost{border-bottom:0 !important;
+padding-bottom:15px !important}.befestigung .befestigungfotor{width:644px;
+height:375px;
+float:right}.befestigung .befestigungfotol{width:644px;
+height:375px;
+float:left}.befestigung .befestigungopisl{width:400px;
+padding:80px 35px;
+float:left}.befestigung .befestigungopislc{width:400px;
+padding:80px 35px;
+float:left}.befestigung .befestigungopisr{width:400px;
+padding:80px 35px;
+float:right}img.mont{width:100%;
+height:auto;
+padding:0 0 25px 0;
+border-bottom:1px solid #D6D6D6}img.mont.last{border:0}.montaznazwa{text-align:center;
+font-size:28px;
+font-weight:normal;
+margin-bottom:20px;
+margin-top:0;
+padding-top:20px;
+border-top:1px solid #D6D6D6}.montaznazwa.pie{border-top:0 !important}.montagelewa{float:left;
+width:773px;
+margin-left:10px;
+font-size:11px}.montagelewakoll,.montagedolkoll{float:left}.montagelewakolp,.montagedolkolp{float:right}.montagedolkoll{width:726px}.montagedolkolp{width:414px}.montagelewa span,.montageprawa span,.montagedol span{float:left;
+clear:both;
+margin-top:1px;
+margin-bottom:2px;
+padding:0;
+margin-left:0;
+margin-right:0}.montagelewakolp span,.montagelewakoll span{max-width:380px}.montageprawa{float:right;
+width:373px;
+margin-right:10px;
+font-size:11px}.montagedol{margin:10px;
+font-size:11px;
+padding-bottom:20px}.montageimg1{float:left}.montageimg2{float:right}.montageimg3{float:left;
+padding-top:7px}.montageimg4{float:right;
+padding-top:7px}.montageimg5{float:right}.montageimg6{float:left}.montageimg7{float:right}.montagelewa{width:65.4%}.montageprawa{width:31.5%}.montagelewa .montagelewakoll,.montagelewa .montagelewakolp{width:49%}.montagedolkoll{width:63%}.montagedolkolp{width:35.9%}.montagelewa img,.montageprawa img,.montagedol img{max-width:100%}.cl{clear:both;
+margin:20px 0}#sklep span.tytul{font-size:30px;
+color:#2790b0;
+border-bottom:1px solid #2790b0;
+margin-left:12px}#sklep img{float:left;
+margin:10px;
+width:261px;
+padding:0;
+border:0}#sklep .achtung{text-align:center;
+color:ff0000;
+font-size:14px;
+margin-top:50px}#sklep .clear{margin-bottom:10px}.messen{margin-top:20px;
+padding-bottom:20px;
+font-size:11px;
+border-bottom:1px solid #D6D6D6}.messen.mt{margin-top:20px}.messen.nbt{border-bottom:0}.messen h3{margin-top:0;
+font-size:16px}.messenal{float:left;
+width:450px}.messenbr{float:right;
+width:640px;
+margin-top:25px}.messencl{float:left;
+width:640px;
+margin-top:15px;
+margin-left:50px}.imgmessena{float:right}.imgmessenb{float:left;
+margin-left:40px}.imgmessenc{float:right}.pflegeopisgora{margin-bottom:30px;
+margin-top:10px}.pflegeopis{width:410px;
+float:left}.pflegeopis ul{list-style-type:decimal;
+padding-left:20px;
+margin-top:30px}.pflegeopis li{padding-left:5px}.imgpflege{float:right;
+margin-top:40px;
+width:700px}#kalk{height:335px;
+width:100%;
+background:#f2f2f2;
+margin-bottom:35px;
+overflow:visible;
+border-top:1px solid #D6D6D6;
+border-bottom:1px solid #D6D6D6;
+margin-top:25px}.kalka{width:385px;
+float:left;
+overflow:visible;
+height:335px;
+position:relative}.kalkb{width:245px;
+float:left;
+overflow:visible;
+border-left:1px solid #D6D6D6;
+height:335px;
+position:relative}.kalkc{width:510px;
+float:left;
+overflow:visible;
+border-left:1px solid #D6D6D6;
+height:335px;
+position:relative}.kalka img{float:left;
+width:75px;
+height:auto;
+margin-top:-28px}.kalkb img{float:left;
+width:75px;
+height:auto;
+margin-top:-28px;
+margin-left:-1px}.kalkc img{float:left;
+width:75px;
+height:auto;
+margin-top:-29px;
+margin-left:-2px}.button1{position:absolute;
+width:178px !important;
+bottom:0;
+right:60px}.button2{position:absolute;
+bottom:0;
+width:219px !important;
+bottom:0;
+left:15px}.button3{position:absolute;
+width:245px !important;
+bottom:0;
+right:0}.button4{position:absolute;
+width:142px !important;
+bottom:0;
+right:0}.kaufen{position:absolute;
+left:0px;
+width:235px;
+bottom:26;
+padding:10px;
+text-align:right}.button1:hover,.button2:hover,.button3:hover,.button4:hover{opacity:0.8;
+cursor:pointer}.form{padding:50px 0 50px 60px}.form .form-field{margin-bottom:10px}.form label{text-align:right;
+width:80px}.form label,.form input,.form select,input#nickname{font-family:inherit;
+font-size:inherit;
+color:inherit;
+display:inline-block;
+padding:2px 5px;
+vertical-align:middle;
+margin:0}.form select{width:154px}.form input,input#nickname{border:1px solid #d4d4d4;
+width:154px}input#nickname{position:absolute;
+display:block;
+bottom:30px;
+right:170px}#loader2{width:31px;
+height:31px;
+position:absolute;
+left:20px;
+bottom:20px;
+display:none}#response2Box{display:none;
+position:absolute;
+width:300px;
+height:auto;
+padding:10px;
+text-align:center;
+left:100px;
+top:50px;
+background-color:#ffffff;
+-webkit-box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);
+-moz-box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);
+box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5)}#response2Box > p{padding-bottom:10px}#sklep h2{font-size:13px;
+margin-bottom:5px}#strona .befestigung h2{font-size:18px;
+margin-bottom:45px;
+margin-top:25px}#strona .messen h2{margin-top:0;
+font-size:16px;
+font-weight:bold;
+margin-bottom:1em}input{display:none}label{display:block;
+float:left;
+color:#fff;
+cursor:pointer;
+text-decoration:none;
+text-align:center;
+background:#f0f0f0;
+display:inline-block;
+padding:15px;
+font-weight:600;
+text-align:center;
+background:#469CDE;
+width:130px;
+font-size:13px;
+line-height:170%;
+font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;
+margin-right:3px;
+margin-bottom:-2px}label:hover{cursor:pointer;
+background:#469CDE;
+color:white}section{display:none;
+clear:both;
+border:1px solid #D6D6D6}#tab1:checked ~ #content1,#tab2:checked ~ #content2,#tab3:checked ~ #content3,#tab4:checked ~ #content4,#tab5:checked ~ #content5,#tab6:checked ~ #content6{display:block}.tab_container [id^="tab"]:checked + label{border:1px solid #D6D6D6;
+border-bottom:1px solid white;
+background:white;
+color:black}.goratekst4{padding-top:30px;
+width:1000px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:30px}.goratekst4 a{display:block;
+margin:0 auto;
+max-width:283px;
+font-size:28px;
+text-align:center;
+color:#000;
+text-decoration:none}@media (max-width:1186px){#strona{width:100%}#strona .befestigung{font-size:13px}#strona .befestigung h4{font-size:18px;
+margin-bottom:10px;
+margin-top:0}#strona .imgmessena{width:60%}#strona .imgmessenb{width:42%}#strona .imgmessenc{width:43%}#strona .montageprawa{margin-right:0}#strona .montagelewa{margin-left:0}#strona .montagedol{margin:0;
+margin-top:10px}#strona .imgpflege{width:50%}#strona .pflegeopis li p{padding-bottom:20px}#strona .pflegeopis li p br{display:none}#utoplew{float:left;
+text-align:center;
+padding:30px;
+width:50%;
+box-sizing:border-box}#galp{width:50%;
+margin-right:0;
+padding:30px;
+box-sizing:border-box}img{max-width:100%}#sklep img{width:25%;
+box-sizing:border-box;
+margin:0;
+padding:10px}#galp .galpf{position:relative;
+height:auto;
+margin-top:30px}#galp{margin-top:0;
+height:auto}.ebayshoplink{margin-bottom:30px}img.utoprdt{margin-left:0}#strona .befestigung .befestigungopisl{width:48%;
+padding:2.5%;
+float:left;
+box-sizing:border-box}#strona .befestigung .befestigungfotor{width:50%;
+height:auto;
+float:right;
+box-sizing:border-box}#strona .befestigung .befestigungopisr{width:45%;
+padding:2.5%;
+float:right}#strona .befestigung .befestigungopislc{width:45%;
+padding:2.5%;
+float:left}#strona .befestigung .befestigungfotol{width:50%;
+height:auto;
+float:right}.messenal{width:48%;
+padding:2.5%;
+float:left;
+box-sizing:border-box}.imgmessena{width:50% !important;
+height:auto;
+float:right;
+box-sizing:border-box}.messenbr{float:right;
+width:48%;
+padding:2.5%;
+box-sizing:border-box;
+margin-top:0}#strona .imgmessenb{margin-left:0}.messencl{float:left;
+width:48%;
+padding:2.5%;
+box-sizing:border-box;
+margin-left:0;
+margin-top:0}#strona .imgmessenb{width:42%}#strona .pflegeopis{width:45%;
+float:left}#strona .imgpflege{width:50%}.goratekst4{width:100%}}@media (max-width:1040px){label{width:100px}#galp .galpf{height:auto}#utoplew{padding:0}#utoplew{padding-top:30px}}@media (max-width: 870px){label{width:31.3333%;
+padding:10px;
+margin:1%;
+box-sizing:border-box;
+border:0 !important}.tab_container [id^="tab"]:checked + label{background:#F5F5F5;
+color:#000}}@media (max-width:768px){#strona .befestigung{font-size:12px}#strona .befestigung h4{font-size:18px;
+margin-bottom:5px;
+margin-top:0}#strona .befestigung .befestigungfotol{float:left}#strona .befestigung .befestigungopisr{padding:0;
+margin-bottom:10px;
+width:100%}#strona .befestigung .befestigungopisl{padding:0;
+margin-bottom:10px;
+width:100%}#strona .befestigung .befestigungfotor{width:100%;
+height:auto}#strona .befestigung .befestigungfotol{width:100%;
+height:auto}#strona .befestigung .befestigungopislc{padding:0;
+margin-bottom:10px;
+width:100%}#strona .pflegeopis{width:100%}#strona .pflegeopis li p{padding-bottom:3px}#strona .pflegeopisgora br{display:none}#strona .imgmessena{width:100%}#strona .imgpflege{width:100%;
+float:left;
+margin-top:0}#strona .messenal{width:100%;
+margin-bottom:10px}#strona .messenbr{width:100%;
+margin-bottom:10px}#strona .imgmessenb{width:100%}#strona .messencl{width:100%;
+margin-bottom:10px}#strona .imgmessenc{width:100%}#strona #pzmenu li{width:29%;
+float:left;
+margin:2%;
+font-size:10px;
+height:42px;
+padding:15px 2px}#strona #pzmenu li.aktyw{color:white;
+background:#469CDE;
+border:0}#strona #sklep span.tytul{margin-left:0;
+width:100%;
+display:block;
+margin-bottom:6px}#strona .messen h3{margin-top:15px}.marl40px{margin-left:40px !important}#sklep img{width:50%;
+box-sizing:border-box;
+margin:0;
+padding:10px}#utoplew{padding-top:0;
+width:100%}#galp{width:100%;
+text-align:center}#strona .befestigung br{display:none}#strona .imgmessena{width:100% !important}}@media (max-width: 700px){#top{height:auto}.logo{float:none;
+padding:5px;
+display:block;
+margin:0 auto}.hotline{float:none;
+display:block;
+margin:0 auto;
+text-align:center}.logoc{float:none;
+margin:0 auto;
+display:block}}@media (max-width: 480px){#strona #sklep img{width:100%;
+padding:0;
+margin:0;
+margin-bottom:10px}#strona .montageprawa{font-size:10px}#strona .messen{font-size:12px}#strona #sklep span.tytul{margin-left:0}.bezml{margin-left:0 !important;
+height:auto}#strona .messen h3{margin-top:15px}}#sklep h2{font-size:13px;
+margin-bottom:5px}#strona .befestigung h2{font-size:18px;
+margin-bottom:45px;
+margin-top:25px}#strona .messen h2{margin-top:0;
+font-size:16px;
+font-weight:bold;
+margin-bottom:1em}@media (max-width: 400px){label{font-size:11px}}@media only screen and (max-width: 900px){.tab_container{width:100%}}.price{display:block;
+text-align:center;
+padding-top:90px;
+font-weight:normal}.price h5{font-size:1.4em;
+margin:0 0 2px 0;
+font-weight:normal}.price .error{color:#b9270b}.basket{overflow:hidden}.basket .table-wrapper{max-height:200px;
+overflow:auto;
+float:right;
+width:93%}.basket table{float:right;
+width:100%}.basket table tbody{font-size:12px}.basket table tbody td{vertical-align:middle}.basket .total{font-size:13px;
+text-align:right;
+float:right;
+padding-top:5px}.basket table button.remove{color:#b9270b;
+padding:0;
+border:none;
+background-color:transparent;
+vertical-align:middle;
+cursor:pointer}.basket .total i{font-style:normal;
+font-size:1.3em;
+color:#b9270b}#orderContent{border:1px solid #d6d6d6}#pzmenu li:last-child{width:141px}#orderContent .trzakl{padding-left:85px;
+position:relative}#customer_data input{height:auto}#fabrics_pool .grey_box{overflow:visible;
+margin-top:40px}.zoom-box{position:absolute;
+width:590px;
+height:395px;
+background-color:#ffffff;
+-webkit-box-shadow:0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+-moz-box-shadow:0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+box-shadow:0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+overflow:visible;
+z-index:1000;
+display:none;
+left:0;
+top:0}.zoom-box .zoom-box-close{position:absolute;
+right:0;
+top:0;
+display:block;
+background:transparent url("//stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox.png") no-repeat -40px 0;
+width:30px;
+height:30px;
+margin-right:-15px;
+margin-top:-15px}.zoom-box .zoom-box-prev{position:absolute;
+left:0;
+top:182px;
+background:transparent url("//stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox.png") no-repeat -40px -30px;
+width:30px;
+height:30px;
+margin-left:-15px}.zoom-box .zoom-box-next{position:absolute;
+right:0;
+top:182px;
+background:transparent url("//stoffmuster.plissee-zeit.de/js/modules/fancybox/fancybox.png") no-repeat -40px -60px;
+width:30px;
+height:30px;
+margin-right:-15px}.zoom-box .zoom-box-caption{position:absolute;
+bottom:0;
+left:0;
+right:0;
+padding-top:5px;
+padding-bottom:5px;
+background-color:rgba(0,0,0,0.5);
+color:#ffffff;
+text-align:center;
+font-size:14px}.hidden{display:none}button,input[type=button]{cursor:pointer}#messageBox{width:952px;
+display:none}#messageHide{text-align:right;
+cursor:pointer;
+padding-right:10px}#customer_box .mega_box_content{position:relative}#loader{width:220px;
+height:19px;
+background:transparent url('/img/loader.gif') no-repeat center center;
+position:absolute;
+display:none;
+right:20px;
+bottom:20px;
+z-index:100}.mbox_message_content{padding-bottom:14px}img.duetteinfo{width:60px !important;
+padding!important;
+ 0;
+margin:0 !important;
+float:none !important;
+margin-left:12px !important;
+margin-right:12px !important}.duettelink{line-height:36px;
+display:inline-block;
+vertical-align:bottom}</style>
