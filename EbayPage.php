@@ -232,42 +232,39 @@
             <div class="trzakl">
                 <div id="sklep">
                     <div class="cl"> </div>
-                    <span class="tytul">Cara Perl</span> - Preisgruppe 0 | lichtdurchlässig | blickdicht
+                    <span class="tytul">Perl</span> - Preisgruppe 0 | lichtdurchlässig | blickdicht
                     <div class="clear"> </div>
 
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20051%20Elfenbein.jpeg" alt="Plissee Beige" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20052%20Latte.jpeg" alt="Plissee Gelb" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20053%20Hellbeige.jpeg" alt="Plissee Cream" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20054%20Braun.jpeg" alt="Plissee Hellbeige" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20055%20Anthrazit.jpeg" alt="Plissee Lemon" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20056%20Dunkelgrau.jpeg" alt="Plissee Stahlblau" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20057%20Cream.jpeg" alt="Plissee Braun" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20058%20Gelb.jpeg" alt="Plissee Orange" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20062%20Violett.jpeg" alt="Plissee Blau" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20063%20Apfelgrün.jpeg" alt="Plissee Rosaviolet" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20One/CARA%20PERL%20066%20Weiß.jpeg" alt="Plissee Weiß" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeOne/PERL101.jpg" alt="Plissee Beige" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeOne/PERL102.jpg" alt="Plissee Gelb" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeOne/PERL103.jpg" alt="Plissee Cream" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeOne/PERL104.jpg" alt="Plissee Hellbeige" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeOne/PERL105.jpg" alt="Plissee Lemon" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeOne/PERL106.jpg" alt="Plissee Stahlblau" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeOne/PERL107.jpg" alt="Plissee Braun" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeOne/PERL108.jpg" alt="Plissee Orange" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeOne/PERL109.jpg" alt="Plissee Blau" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeOne/PERL110.jpg" alt="Plissee Rosaviolet" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeOne/PERL111.jpg" alt="Plissee Weiß" title="Click image to enlarge and see detailed information."></a>
 
                     <div class="cl"> </div>
-                    <span class="tytul">Allegto</span> - Preisgruppe 1 | lichtdurchlässig | blickdicht Außenseite mit Reflexbeschichtung
+                    <span class="tytul">Perl Vista</span> - Preisgruppe 1 | lichtdurchlässig | blickdicht Außenseite mit Reflexbeschichtung
                     <div class="clear"> </div>
 
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%20084%20Hellbraun.jpeg" alt="Plissee Perlex Elfenbein" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%20085%20Anthrazit.jpeg" alt="Plissee Perlex Latte" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%20087%20Gelb.jpeg" alt="Plissee Perlex Hellbeige" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%20090%20Apfelgrün.jpeg" alt="Plissee Perlex Braun" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%201200%20Weiß.jpeg" alt="Plissee Perlex Anthrazit" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%201201%20Hellgelb.jpeg" alt="Plissee Perlex Dunkelgrau" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%201202%20Lachscream.jpeg" alt="Plissee Perlex Cream" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%201203%20Beig.jpeg" alt="Plissee Perlex Gelb" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%201206%20Cream.jpeg" alt="Plissee Perlex Violet" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNICOLOR%201208%20Helllachscr..jpeg" alt="Plissee Perlex Apfelgrün" title="Click image to enlarge and see detailed information."></a>
-                    <a href="..." target="_blank"><img src="img/Renkler/Type%20Two/UNIREFLEX%202150%20Weiß.jpeg" alt="Plissee Perlex Weiß" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeTwo/PERLVISTA201.jpg" alt="Plissee Perlex Elfenbein" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeTwo/PERLVISTA202.jpg" alt="Plissee Perlex Latte" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeTwo/PERLVISTA203.jpg" alt="Plissee Perlex Hellbeige" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeTwo/PERLVISTA204.jpg" alt="Plissee Perlex Braun" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeTwo/PERLVISTA205.jpg" alt="Plissee Perlex Anthrazit" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeTwo/PERLVISTA206.jpg" alt="Plissee Perlex Dunkelgrau" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeTwo/PERLVISTA207.jpg" alt="Plissee Perlex Cream" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeTwo/PERLVISTA208.jpg" alt="Plissee Perlex Gelb" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeTwo/PERLVISTA209.jpg" alt="Plissee Perlex Violet" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeTwo/PERLVISTA210.jpg" alt="Plissee Perlex Apfelgrün" title="Click image to enlarge and see detailed information."></a>
+                    <a href="..." target="_blank"><img src="/img/Renkler/TypeTwo/PERLVISTA211.jpg" alt="Plissee Perlex Weiß" title="Click image to enlarge and see detailed information."></a>
 
                     <div class="cl">
-                        <img src="img//de-montage-plissee1-page-001.jpg" style="width:1100px;height:700px;">
-                        <img src="img/de-montage-plissee1-page-002.jpg" style="width:1100px;height:700px;">
-                        <img src="img/de-montage-plissee2-page-001.jpg" style="width:1100px;height:700px;">
-                        <img src="img/de-montage-plissee2-page-002.jpg" style="width:1100px;height:700px;">
+                        <iframe width="100%" height="100%" src="listoftablespics.html" frameborder="0" allowfullscreen></iframe>,
                     </div>
 
 
